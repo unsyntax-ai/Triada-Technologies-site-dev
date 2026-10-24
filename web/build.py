@@ -53,9 +53,13 @@ def head(title, desc, page, schema="", og_type="website", noindex=False):
 <meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{OG_IMAGE}">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" href="favicon.ico?v=2" sizes="48x48">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png?v=2">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Google+Sans+Flex:wght@400;500;600&display=swap">
@@ -244,7 +248,7 @@ steps_html = "\n".join(
 # ---------- HOME ----------
 HOME_SCHEMA = ld({"@context": "https://schema.org", "@graph": [
     org(),
-    {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Triada Technologies",
+    {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Triada Technologies", "alternateName": "Triada",
      "inLanguage": "en-US", "publisher": {"@id": ORG_ID}},
 ]})
 
@@ -1158,7 +1162,7 @@ contact = f'''<section class="page-hero" style="border-top:0">
 '''
 
 pages = [
-    ("index.html", "Triada Technologies | Staffing Services Across the USA",
+    ("index.html", "Triada Technologies | Creating value for everyone",
      "Triada Technologies is a nationwide staffing firm based in Erie, PA, placing temporary, contract, contract-to-hire, and direct-hire talent across the USA.",
      home, True, HOME_SCHEMA),
     ("services.html", "Staffing Services | Triada Technologies",
