@@ -1162,7 +1162,7 @@ contact = f'''<section class="page-hero" style="border-top:0">
 '''
 
 pages = [
-    ("index.html", "Triada Technologies | Creating value for everyone",
+    ("index.html", "Triada Technologies | Staffing Services Across the USA",
      "Triada Technologies is a nationwide staffing firm based in Erie, PA, placing temporary, contract, contract-to-hire, and direct-hire talent across the USA.",
      home, True, HOME_SCHEMA),
     ("services.html", "Staffing Services | Triada Technologies",
