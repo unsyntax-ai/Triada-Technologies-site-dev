@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 300" role="img" aria-label="A factory with a chimney, smoke and a conveyor belt"><rect width="485" height="300" fill="#FFF1E6"/>
+<ellipse cx="250" cy="270" rx="180" ry="6" fill="#0F172A" opacity=".08"/>
+<rect x="330" y="86" width="30" height="76" rx="3" fill="#172C6B"/>
+<rect x="326" y="80" width="38" height="12" rx="3" fill="#14B8A6"/>
+<circle cx="350" cy="58" r="12" fill="#FFFFFF"/>
+<rect x="124" y="160" width="244" height="86" rx="4" fill="#1E3A8A"/>
+<rect x="246" y="160" width="122" height="86" rx="4" fill="#172C6B" opacity=".35"/>
+<polygon points="140,160 140,126 196,160" fill="#14B8A6"/><polygon points="196,160 196,126 252,160" fill="#14B8A6"/><polygon points="252,160 252,126 308,160" fill="#14B8A6"/><polygon points="308,160 308,126 364,160" fill="#14B8A6"/>
+<rect x="150" y="184" width="22" height="20" rx="3" fill="#FFFFFF"/>
+<rect x="306" y="190" width="40" height="56" rx="4" fill="#14B8A6"/>
+<rect x="100" y="246" width="320" height="14" rx="7" fill="#172C6B"/>
+<rect x="200" y="222" width="28" height="24" rx="3" fill="#FFFFFF"/>
+<circle cx="420" cy="120" r="8" fill="#FF6A00"/></svg>

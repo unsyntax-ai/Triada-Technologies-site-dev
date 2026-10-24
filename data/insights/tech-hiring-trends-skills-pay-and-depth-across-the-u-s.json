@@ -1,0 +1,67 @@
+{
+  "slug": "tech-hiring-trends-skills-pay-and-depth-across-the-u-s",
+  "title": "Tech Hiring Trends: Skills, Pay, and Depth Across the U.S",
+  "description": "Explore current trends in U.S. tech hiring, from growing AI compensation to high-demand engineering skills and practical tips for employers and candidates.",
+  "tag": "Hiring trends",
+  "summary": "U.S. technology hiring shows resilient long-term wage growth and demand for deep domain expertise. Understanding where specialization matters helps both employers and job seekers cut through application noise.",
+  "palette": "navy",
+  "published": "2026-10-20",
+  "updated": "2026-10-20",
+  "has_art": true,
+  "topic": "digital technology workspace and analytics charts",
+  "sections": [
+    {
+      "heading": "The National Outlook for Technology Roles",
+      "paragraphs": [
+        "The technology sector across the United States continues to offer durable career paths despite shifting hiring cycles. Projections from the U.S. Bureau of Labor Statistics indicate that overall employment in computer and information technology occupations will grow faster than the average for all occupations between 2025 and 2035. On average, the country expects roughly 280,000 job openings each year in these fields, created both by organizational growth and the continuous need to replace professionals who leave their roles.",
+        "Wages across the field reflect this sustained demand. The median annual wage for computer and information technology occupations reached $109,470 in May 2025, more than double the national median wage of $50,980 for all occupations combined. Recent data from Indeed Hiring Lab suggests that while employer hiring activity maintains a measured pace following adjustments in job postings, core baseline demand remains grounded across key industry verticals."
+      ]
+    },
+    {
+      "heading": "Role Specialization and Compensation Realities",
+      "paragraphs": [
+        "Broad assumptions about tech roles often overlook significant variations in pay and responsibility across occupations. At the higher end of the compensation scale, computer and information research scientists design innovative uses for technology, commanding a median annual pay of $140,300 with master's-level preparation. Close behind are computer network architects at $134,050 and software developers, quality assurance analysts, and testers at $134,040, both of which typically require bachelor's degrees.",
+        "Critical infrastructure and data protection roles remain highly compensated as well. Information security analysts earned a median salary of $129,180, while database administrators and architects earned $126,760. Foundational engineering positions also maintain solid earnings: computer systems analysts earn $105,850, computer programmers earn $100,390, web developers and digital designers earn $99,520, and network and computer systems administrators earn $99,130. Front-line support specialists hold a median pay of $62,890. Interestingly, research from Indeed shows that roles with exposure to artificial intelligence are actually seeing boosted advertised wages in the United States, counter to fears that automation might depress pay across technical titles."
+      ]
+    },
+    {
+      "heading": "Evaluating Engineering Skills Past the AI Noise",
+      "paragraphs": [
+        "While automated tools have become widespread, their adoption has created distinct complications in technical recruitment. Analysis from Stack Overflow highlights that hiring teams now face substantial noise at the top of their application funnels, making it difficult to pinpoint genuine talent among automated submissions. At the same time, industry discussions confirm that headcounts are not simply shifting toward broad generalists. Organizations still seek dedicated specialists who understand deep system mechanics.",
+        "As automated code generation lowers the cost of writing syntax, the primary engineering challenge has pivoted from writing code to verifying correctness. Organizations need professionals who know what correct behavior looks like and who can build reliable systems to validate it. Emerging technical demands also center on knowledge integration and context architecture, as platform teams work to ensure internal documentation and data layers can reliably feed decision-grade information to intelligent tools."
+      ]
+    },
+    {
+      "heading": "Strategic Takeaways for Employers and Job Seekers",
+      "paragraphs": [
+        "For hiring managers, sorting through candidate pools requires rethinking traditional assessment methods. Because basic code production is easier than ever, interviews should evaluate a candidate's architectural judgment, code review ability, and capacity to design testing frameworks. Employers should also guard against shadow tool use by designing structured, transparent workflows that encourage responsible technology adoption. Investing in deep technical specialists rather than assuming generalists can manage complex platform architectures remains a prudent approach.",
+        "For technology job seekers, standing out requires demonstrating real verification skills rather than relying on automated output. Emphasize your ability to evaluate software accuracy, design secure data pipelines, and manage system context. Keep your domain expertise sharp, as specialized roles in security, network architecture, and research command the strongest compensation. By focusing on critical validation and system integrity, candidates across the United States can navigate the evolving market with confidence."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Computer and IT occupations project faster-than-average growth through 2035 with approximately 280,000 annual openings nationwide.",
+    "Roles exposed to AI are seeing increases in advertised compensation rather than downward wage pressure.",
+    "Technical hiring priorities are focusing on specialized verification, testing, and context architecture over generalist skills."
+  ],
+  "sources": [
+    {
+      "title": "Computer and Information Technology Occupations : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/home.htm"
+    },
+    {
+      "title": "Home - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/"
+    },
+    {
+      "title": "The Stack Overflow Blog - Stack Overflow",
+      "url": "https://stackoverflow.blog/"
+    }
+  ],
+  "art": {
+    "motif": "gauge",
+    "params": {
+      "level": 78
+    }
+  }
+}

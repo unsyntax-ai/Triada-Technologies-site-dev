@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="127 34 230 230" role="img" aria-label="Cell tower">
+<path d="M221 67A30 30 0 0 1 263 67" fill="none" stroke="#14B8A6" stroke-width="7" stroke-linecap="round"/>
+<path d="M205.6 51.6A52 52 0 0 1 278.4 51.6" fill="none" stroke="#14B8A6" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+<line x1="242" y1="92" x2="204" y2="246" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+<line x1="242" y1="92" x2="280" y2="246" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+<line x1="227.7" y1="150" x2="256.3" y2="150" stroke="#172C6B" stroke-width="4" stroke-linecap="round"/><line x1="215.4" y1="200" x2="268.6" y2="200" stroke="#172C6B" stroke-width="4" stroke-linecap="round"/>
+<rect x="190" y="244" width="104" height="14" rx="7" fill="#172C6B"/>
+<circle cx="242" cy="88" r="12" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="5"/>
+<circle cx="242" cy="88" r="5" fill="#FF6A00"/></svg>

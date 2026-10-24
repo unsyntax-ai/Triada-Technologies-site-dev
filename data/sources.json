@@ -1,0 +1,10 @@
+{
+  "model": "gemini-3.8-flash",
+  "focus": "Focus on what is changing in U.S. tech hiring: roles, skills, contract versus permanent demand, and what employers and candidates anywhere in the country should do next.",
+  "sources": [
+    "https://hiringlab.indeed.com/",
+    "https://www.comptia.org/en-us/resources/research/tech-jobs-report/",
+    "https://stackoverflow.blog/",
+    "https://www.bls.gov/ooh/computer-and-information-technology/home.htm"
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 300" role="img" aria-label="A delivery truck with parcels and a route to a map pin"><rect width="485" height="300" fill="#E6F6F3"/>
+<ellipse cx="240" cy="264" rx="170" ry="6" fill="#0F172A" opacity=".08"/>
+<rect x="70" y="238" width="350" height="8" rx="4" fill="#C9ECE6"/>
+<rect x="112" y="124" width="160" height="100" rx="10" fill="#FFFFFF"/>
+<rect x="112" y="188" width="160" height="14" fill="#14B8A6"/>
+<path d="M272 156H328L354 190V224H272Z" fill="#1E3A8A"/>
+<path d="M284 166H322L340 188H284Z" fill="#5EEAD4" opacity=".85"/>
+<circle cx="156" cy="228" r="18" fill="#172C6B"/><circle cx="156" cy="228" r="8" fill="#FFFFFF"/>
+<circle cx="318" cy="228" r="18" fill="#172C6B"/><circle cx="318" cy="228" r="8" fill="#FFFFFF"/>
+<line x1="62" y1="156" x2="96" y2="156" stroke="#1E3A8A" stroke-width="4" stroke-linecap="round" opacity=".35"/>
+<path d="M150 112Q220 40 380 64" fill="none" stroke="#1E3A8A" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 10" opacity=".55"/>
+<path d="M388 38C376 38 368 47 368 58C368 72 388 90 388 90C388 90 408 72 408 58C408 47 400 38 388 38Z" fill="#14B8A6"/>
+<circle cx="388" cy="58" r="9" fill="#FFFFFF"/><circle cx="388" cy="58" r="4" fill="#FF6A00"/></svg>

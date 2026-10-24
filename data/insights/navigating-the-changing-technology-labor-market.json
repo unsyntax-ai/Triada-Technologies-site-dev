@@ -1,0 +1,73 @@
+{
+  "slug": "navigating-the-changing-technology-labor-market",
+  "title": "Navigating the Changing Technology Labor Market",
+  "description": "Discover current tech hiring trends, from steady job growth and rising pay for AI-exposed roles to key strategies for employers and job candidates.",
+  "tag": "Hiring trends",
+  "summary": "Technology hiring is experiencing a steady labor market where specialized technical skills and automated verification are redefining value for both employers and job seekers.",
+  "palette": "navy",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "has_art": true,
+  "topic": "technical architecture diagrams on screens",
+  "sections": [
+    {
+      "heading": "A Steady Market with Sustained Long-Term Demand",
+      "paragraphs": [
+        "The technology employment landscape continues to offer long-term stability even as monthly hiring activity moves at a measured pace. Data from the Bureau of Labor Statistics projects that overall employment in computer and information technology occupations will grow faster than the average across all occupations between 2025 and 2035. This sustained expansion, combined with the need to replace workers who permanently leave their roles, is projected to generate roughly 280,000 job openings each year.",
+        "At the same time, recent labor market indicators highlight an environment of steadiness rather than sudden expansion. Findings from the Indeed Hiring Lab describe a climate of limited dynamism, where job postings have shown signs of turning a corner while overall hiring volume has been slow to follow. Despite this cautious pace, compensation in technology remains strong. The median annual wage for computer and information technology roles stood at $109,470 in May 2025, more than double the national median of $50,980 across all occupations."
+      ]
+    },
+    {
+      "heading": "Rising Compensation and the Shift Toward Specialized Skills",
+      "paragraphs": [
+        "Specialization continues to command a distinct premium across technical disciplines. Advanced roles such as computer and information research scientists recorded a median wage of $140,300 in 2025. Computer network architects reached a median pay of $134,050, closely matched by software developers, quality assurance analysts, and testers at $134,040. Information security analysts also maintained strong earning power with a median wage of $129,180, while database administrators and architects earned $126,760.",
+        "The broader adoption of artificial intelligence tools is reshaping these roles rather than diminishing their compensation. Research from the Indeed Hiring Lab reveals that AI exposure is actually boosting advertised pay across the United States instead of squeezing it, although economists continue to urge vigilance regarding entry-level pay for recent graduates. Concurrently, technical requirements are shifting. As discussions published by Stack Overflow observe, widespread automated code generation makes the ability to define what is correct critical. Technical demand is moving away from purely generic skill sets toward specialized expertise in system design, formal specifications, model-based testing, and trace validation to verify code against production data."
+      ]
+    },
+    {
+      "heading": "Recommendations for Engineering and Hiring Managers",
+      "paragraphs": [
+        "For hiring managers, evaluating candidates has become significantly more complex. Engineering leaders report that identifying strong fits has grown harder at the top of the application funnel as application volumes rise and automated submissions become common. Traditional keyword screening is no longer enough to confirm practical capability.",
+        "Employers should modernize their recruitment processes by testing for real-world verification and architectural judgment. Rather than relying on basic coding exercises that tools can easily automate, interview loops should assess how well engineers design system boundaries, audit unexpected outputs, and maintain data security. Structuring interviews around trace validation, test coverage, and production reliability ensures your organization hires professionals who can manage complex software lifecycles."
+      ]
+    },
+    {
+      "heading": "Strategic Steps for Technology Job Seekers",
+      "paragraphs": [
+        "Job seekers navigating today's tech market should lean into specialized technical depth rather than presenting themselves as broad generalists. While basic technical tasks are increasingly assisted by automation, high compensation belongs to those who understand formal verification, system architecture, and quality assurance.",
+        "Candidates should actively showcase their ability to review, test, and validate software in production-grade environments. Highlighting direct experience with data security, system efficiency, and test design will distinguish you from the crowd at the top of the funnel. Demonstrating that you can verify that work was completed accurately provides the proof employers need in an evolving technical market."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Computer and IT roles project about 280,000 openings annually from 2025 to 2035 with a May 2025 median wage of $109,470.",
+    "AI exposure is boosting advertised wages in the United States while shifting technical demand toward system validation and testing.",
+    "Hiring managers must refine screening at the top of the funnel to evaluate deep architectural judgment and verification skills."
+  ],
+  "sources": [
+    {
+      "title": "Home - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/"
+    },
+    {
+      "title": "The Stack Overflow Blog - Stack Overflow",
+      "url": "https://stackoverflow.blog/"
+    },
+    {
+      "title": "Computer and Information Technology Occupations : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/home.htm"
+    }
+  ],
+  "art": {
+    "motif": "bars",
+    "params": {
+      "values": [
+        38,
+        57,
+        46,
+        76,
+        100
+      ]
+    }
+  }
+}

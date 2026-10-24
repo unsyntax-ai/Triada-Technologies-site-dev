@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 300" role="img" aria-label="A cell tower sending signals, with a phone"><rect width="485" height="300" fill="#EEF2FB"/>
+<ellipse cx="242" cy="266" rx="150" ry="7" fill="#0F172A" opacity=".08"/>
+<path d="M218.2 64.2A34 34 0 0 1 265.8 64.2" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" opacity="0.9"/><path d="M202.8 48.8A56 56 0 0 1 281.2 48.8" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" opacity="0.6"/><path d="M187.4 33.4A78 78 0 0 1 296.6 33.4" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+<line x1="242" y1="92" x2="204" y2="246" stroke="#1E3A8A" stroke-width="7" stroke-linecap="round"/>
+<line x1="242" y1="92" x2="280" y2="246" stroke="#1E3A8A" stroke-width="7" stroke-linecap="round"/>
+<line x1="227.7" y1="150" x2="256.3" y2="150" stroke="#172C6B" stroke-width="4" stroke-linecap="round"/><line x1="215.4" y1="200" x2="268.6" y2="200" stroke="#172C6B" stroke-width="4" stroke-linecap="round"/>
+<rect x="190" y="244" width="104" height="14" rx="7" fill="#172C6B"/>
+<circle cx="242" cy="88" r="12" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="5"/>
+<circle cx="242" cy="88" r="5" fill="#FF6A00"/>
+<g transform="rotate(8 372 180)"><rect x="344" y="130" width="56" height="100" rx="12" fill="#1E3A8A"/><rect x="350" y="142" width="44" height="72" rx="5" fill="#FFFFFF"/>
+<rect x="358" y="190" width="6" height="14" rx="2" fill="#14B8A6"/><rect x="370" y="180" width="6" height="24" rx="2" fill="#14B8A6"/></g></svg>

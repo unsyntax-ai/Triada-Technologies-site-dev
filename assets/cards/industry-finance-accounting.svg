@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 300" role="img" aria-label="A bar chart with a rising line and a stack of coins"><rect width="485" height="300" fill="#FFF1E6"/>
+<ellipse cx="250" cy="262" rx="170" ry="7" fill="#0F172A" opacity=".08"/>
+<rect x="130" y="236" width="296" height="4" rx="2" fill="#FBDCC6"/>
+<rect x="148" y="180" width="30" height="56" rx="8" fill="#FFFFFF"/><rect x="188" y="150" width="30" height="86" rx="8" fill="#FFFFFF"/><rect x="228" y="118" width="30" height="118" rx="8" fill="#1E3A8A"/><rect x="268" y="86" width="30" height="150" rx="8" fill="#14B8A6"/>
+<polyline points="163,160 203,130 243,98 283,66" fill="none" stroke="#172C6B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="283" cy="66" r="9" fill="#FF6A00"/>
+<rect x="338" y="226" width="64" height="14" fill="#0D9488"/><ellipse cx="370" cy="240" rx="32" ry="9" fill="#0D9488"/><rect x="338" y="210" width="64" height="14" fill="#0D9488"/><ellipse cx="370" cy="224" rx="32" ry="9" fill="#0D9488"/><rect x="338" y="194" width="64" height="14" fill="#0D9488"/><ellipse cx="370" cy="208" rx="32" ry="9" fill="#0D9488"/><ellipse cx="370" cy="194" rx="32" ry="9" fill="#14B8A6"/></svg>
