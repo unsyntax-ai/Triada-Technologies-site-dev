@@ -18,6 +18,7 @@ PHONE = "+1 469 396 2108"
 PHONE_HREF = "tel:+14693962108"
 POSTAL_CODE = "16502"          # shown on the contact page only; elsewhere the address is just city and state
 EMAIL = "hr@triadatechnologies.com"
+LINKEDIN = "https://www.linkedin.com/company/triada-technologies/"
 
 
 SITE = "https://triadatechnologies.com"
@@ -88,7 +89,7 @@ def org(with_phone=False):
     o = {"@type": ["Organization", "EmploymentAgency"], "@id": ORG_ID, "name": "Triada Technologies",
          "url": SITE + "/", "logo": SITE + "/assets/logo.svg", "image": OG_IMAGE,
          "description": "Nationwide staffing and recruitment partner headquartered in Erie, PA, providing temporary, contract, contract-to-hire, direct-hire, and executive search services across the United States.",
-         "email": EMAIL,
+         "email": EMAIL, "sameAs": [LINKEDIN],
          "address": {"@type": "PostalAddress", "addressLocality": "Erie", "addressRegion": "PA", "addressCountry": "US"},
          "areaServed": {"@type": "Country", "name": "United States"},
          "knowsAbout": ["Contract staffing", "Contract-to-hire", "Direct hire placement", "Executive search", "Vendor management systems", "Technology hiring"]}
@@ -133,6 +134,7 @@ FOOTER = f'''<footer class="site-foot">
       <p>Headquartered in Erie, PA</p>
       <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
       <p><a href="contact.html">Contact page</a></p>
+      <p><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies on LinkedIn</a></p>
     </div>
     <div>
       <p><a href="services.html">Services</a> · <a href="jobs.html">Jobs</a> · <a href="insights.html">Insights</a></p>
@@ -1119,6 +1121,7 @@ contact = f'''<section class="page-hero" style="border-top:0">
         <div><dt>Phone</dt><dd><a href="{PHONE_HREF}">{PHONE}</a></dd></div>
         <div><dt>Email</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd></div>
         <div><dt>Address</dt><dd>Erie, PA {POSTAL_CODE}</dd></div>
+        <div><dt>LinkedIn</dt><dd><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies</a></dd></div>
       </dl>
     </div>
 
