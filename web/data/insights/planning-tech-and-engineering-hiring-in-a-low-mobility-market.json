@@ -1,0 +1,69 @@
+{
+  "slug": "planning-tech-and-engineering-hiring-in-a-low-mobility-market",
+  "title": "Planning Tech and Engineering Hiring in a Low-Mobility Market",
+  "description": "Discover how U.S. labor market shifts, engineering demand, and data center hiring growth impact workforce planning and recruitment strategies.",
+  "tag": "Workforce planning",
+  "summary": "While national hiring stays quiet, surging demand for engineering and data center talent requires employers to mix direct-hire and flexible staffing models.",
+  "palette": "navy",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "has_art": true,
+  "topic": "Engineers reviewing data center blueprints",
+  "art": {
+    "motif": "balance",
+    "params": {
+      "heavier": "even"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Navigating a Quiet National Employment Landscape",
+      "paragraphs": [
+        "The labor market across the United States is holding steady in a persistent low-turnover environment. Recent findings from the Indeed Hiring Lab show that while overall posting volume is creeping upward, broader employment dynamism remains subdued. The Job Postings Index reached 103.8 in mid-October 2026, placing overall job availability roughly 4 percent above pre-pandemic baselines and up 2.8 percent compared to the previous year. However, new job postings listed for seven days or fewer have plateaued at 99.2.",
+        "Supporting data from the U.S. Bureau of Labor Statistics highlights a modest monthly payroll gain of 29,000 jobs in September, alongside a 4.2 percent unemployment rate. With the national hires rate sitting at 3.3 percent and the quits rate at 1.9 percent, workers are staying in place, creating a talent landscape characterized by reduced candidate mobility."
+      ]
+    },
+    {
+      "heading": "Engineering and Data Center Expansion Drive Hiring Gains",
+      "paragraphs": [
+        "Even within this low-mobility market, sector-level hiring breadth is steadily improving. Currently, 68 percent of occupational sectors report higher job posting levels than a year ago, up significantly from under half in early September. Engineering disciplines are driving much of this growth. Mechanical, civil, and electrical engineering positions represent three of the top five hiring sectors nationwide, trailing only medical roles for physicians, surgeons, and therapy specialists.",
+        "Additionally, infrastructure demand is sparking a rapid surge in technology listings. Data center job postings grew by another 20 percent in just three months through September 2026, standing 147 percent higher than in June 2024."
+      ]
+    },
+    {
+      "heading": "Managing Sharp Regional Mismatches and Wage Disparities",
+      "paragraphs": [
+        "Workforce planning must also account for stark regional differences across the United States. West Coast technology centers like Seattle, San Francisco, and Santa Rosa continue to feel the impact of tech-sector pullbacks, resulting in some of the lowest job posting index levels nationwide. In contrast, markets across New England and the Upper Midwest face tight labor availability. Areas such as the Burlington, Vermont metro area and the Lebanon-Claremont region straddling New Hampshire and Vermont are experiencing extreme labor supply constraints due to aging populations and ongoing waves of retirements. In the Southeast, labor slack persists largely because available candidate skill sets do not match the specific qualifications local employers require.",
+        "Wage trends further reflect this split environment. Headline advertised wage growth slowed to 2.4 percent year-over-year in September, and inflation-adjusted average weekly earnings dipped 0.5 percent from August. Yet specialized technical roles continue to command strong wage increases. Advertised pay for electrical engineering positions rose 5.6 percent over the year, while IT systems and solutions roles gained 4.7 percent."
+      ]
+    },
+    {
+      "heading": "Strategic Workforce Planning for Employers and Job Seekers",
+      "paragraphs": [
+        "To overcome recruitment bottlenecks in tight specialized markets, hiring managers should combine direct-hire strategies with flexible staffing arrangements. Direct-hire offers remain essential for attracting top-tier electrical engineers or data center specialists who might hesitate to leave stable roles during a low-quits period.",
+        "Meanwhile, contract and contract-to-hire models enable teams to manage workload surges, evaluate technical expertise, and address geographic skill gaps without taking on permanent fixed costs. Temporary staffing also provides a practical solution for bridging immediate skill mismatches in regions with localized talent imbalances. For job seekers, aligning skill development with expanding infrastructure categories, such as data centers and IT systems management, provides the best opportunity to secure competitive pay and long-term career stability."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Data center job postings jumped 20% in three months, leading selective tech growth.",
+    "Advertised wages for electrical engineering (+5.6%) and IT systems (+4.7%) outpace headline wage growth.",
+    "Employers should blend direct-hire and contract staffing to address localized labor shortages."
+  ],
+  "sources": [
+    {
+      "title": "US Labor Market Snapshot — October 2026 - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/2026/10/22/us-labor-market-snapshot-october-2026/"
+    },
+    {
+      "title": "Employment Situation Summary - 2026 M09 Results",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+      "title": "Job Openings and Labor Turnover Summary - 2026 M08 Results",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+    }
+  ],
+  "angle": "how hiring managers can plan their workforce around it",
+  "primary_source": "https://hiringlab.indeed.com/2026/10/22/us-labor-market-snapshot-october-2026/"
+}

@@ -1,6 +1,52 @@
 {
   "model": "gemini-3.8-flash",
-  "focus": "Focus on what is changing in U.S. tech hiring: roles, skills, contract versus permanent demand, and what employers and candidates anywhere in the country should do next.",
+  "focus": "Write for the staffing industry in the United States: what is changing in hiring and in the labor market, and what it means for employers planning their teams and for professionals planning their next role. Cover contract, contract-to-hire, direct-hire and temporary work, skills in demand, pay and workforce planning, using the main source's own specific story.",
+  "feeds": [
+    "https://hiringlab.indeed.com/feed/",
+    "https://stackoverflow.blog/feed/"
+  ],
+  "pages": [
+    {
+      "url": "https://www.comptia.org/en-us/resources/research/tech-jobs-report/",
+      "title": "CompTIA Tech Jobs Report: latest U.S. tech employment numbers",
+      "about": "Monthly analysis of U.S. tech employment, job postings and hiring by occupation",
+      "every_days": 28
+    },
+    {
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "title": "BLS Employment Situation: the latest U.S. jobs report",
+      "about": "Monthly U.S. employment, unemployment, hiring and wage figures from the Bureau of Labor Statistics",
+      "every_days": 28
+    },
+    {
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+      "title": "BLS JOLTS: job openings, hires and quits",
+      "about": "Monthly U.S. job openings, hires and separations from the Bureau of Labor Statistics",
+      "every_days": 28
+    }
+  ],
+  "index_pages": [
+    {
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/home.htm",
+      "link_prefix": "/ooh/computer-and-information-technology/",
+      "about": "Occupational Outlook Handbook: duties, pay, job outlook and entry paths for a U.S. technology occupation",
+      "every_days": 120
+    }
+  ],
+  "skip_urls": [
+    "https://stackoverflow.blog/2026/10/15/your-team-shouldnt-build-an-ai-context-layer/"
+  ],
+  "keywords": ["job", "hiring", "hire", "labor", "workforce", "talent", "employer", "worker", "wage", "pay", "salary", "career", "skill", "recruit", "staffing", "contract", "temporary", "remote", "layoff", "unemployment", "openings", "developer", "engineer", "ai ", "survey", "demand", "graduate", "seasonal"],
+  "angles": [
+    "what this means for contract and contract-to-hire hiring",
+    "what job seekers should do next to stand out",
+    "how hiring managers can plan their workforce around it",
+    "what is happening to pay and compensation",
+    "which skills employers are asking for and how to build them",
+    "how AI is changing roles and hiring",
+    "temporary, seasonal and flexible staffing",
+    "career moves and upskilling for the year ahead"
+  ],
   "sources": [
     "https://hiringlab.indeed.com/",
     "https://www.comptia.org/en-us/resources/research/tech-jobs-report/",

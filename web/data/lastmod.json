@@ -1,54 +1,66 @@
 {
  "about.html": {
-  "date": "2026-10-25",
-  "hash": "719da8f64fb0dd0133e0ee188a49048e2cb592cb"
+  "date": "2026-10-26",
+  "hash": "561a57b522ff0ddfbbe3666a5197695136221279"
  },
  "contact.html": {
-  "date": "2026-10-25",
-  "hash": "232f7f6a445b3ada939211dc7ed7a377bd70951d"
+  "date": "2026-10-26",
+  "hash": "ff1babe002d01c72657b5b3fe2f7a298e1f3334d"
  },
  "index.html": {
-  "date": "2026-10-25",
-  "hash": "7cea559f531d5623e50abe97e047dd98e3e2d044"
+  "date": "2026-10-26",
+  "hash": "34b2ea65174005cf8fbaab489ea8f45bae77b97b"
  },
  "insight-ai-integration-and-emerging-specializations-in-tech-hiring.html": {
-  "date": "2026-10-25",
-  "hash": "1ec8ce02a12109fb8b361faa4897fe1b9c36eb9e"
+  "date": "2026-10-26",
+  "hash": "c52b7d20615ead75a4557edf0c90d10736a8d934"
+ },
+ "insight-navigating-pay-and-ai-shifts-in-modern-staffing.html": {
+  "date": "2026-10-26",
+  "hash": "2c501408808c165dca93c56b9c3606cb4c508da2"
  },
  "insight-navigating-tech-skills-and-hiring-shifts-in-the-u-s-market.html": {
-  "date": "2026-10-25",
-  "hash": "0f172020c858a3a304ff13c5156fd8a88def276e"
+  "date": "2026-10-26",
+  "hash": "abae650f908f9650dbed3b35826451a50c3ec7b5"
  },
  "insight-navigating-the-changing-technology-labor-market.html": {
-  "date": "2026-10-25",
-  "hash": "7337839e855ae42d661e8a10533877795774a602"
+  "date": "2026-10-26",
+  "hash": "7028166e96776f4c9d43a6041140fe10d78f5143"
  },
  "insight-navigating-u-s-tech-hiring-trends-and-specialized-roles.html": {
-  "date": "2026-10-25",
-  "hash": "40017c34ad07b3396ff4e14fb29887779d8895bf"
+  "date": "2026-10-26",
+  "hash": "593e6c8d913f099da676c89b3a5f8d0691cf1ee0"
+ },
+ "insight-planning-tech-and-engineering-hiring-in-a-low-mobility-market.html": {
+  "date": "2026-10-26",
+  "hash": "498074f800f1bcaae435f87e3fec056497c97f43"
  },
  "insight-shifts-in-technical-talent-demand-and-compensation-across-the-u-s.html": {
-  "date": "2026-10-25",
-  "hash": "920f41ec32cb8cfd7e21402333c9cd1b5df336e7"
+  "date": "2026-10-26",
+  "hash": "b9e3adb58c14f40b85d2eb6d59dccced17a9b0f2"
  },
  "insight-tech-hiring-trends-skills-pay-and-depth-across-the-u-s.html": {
+  "date": "2026-10-26",
+  "hash": "7a1e9ac86a4820935bd750df7fd02a6a50c76c21"
+ },
+ "insight-why-platform-teams-should-avoid-building-ai-context-layers.html": {
   "date": "2026-10-25",
-  "hash": "73ef715e347b259ac2d56fddad08447d803cd7a3"
+  "hash": "8d4bfe37520ef3af59f3730510cd8e7cfa76a6e6"
  },
  "insights-archive.html": {
-  "date": "2026-10-25",
-  "hash": "176685fc0d1af9e82cf1002d87da785010839699"
+  "date": "2026-10-26",
+  "hash": "ec87de11282f408ccfa5d5d250fe562239522948"
  },
  "insights.html": {
-  "date": "2026-10-25",
-  "hash": "9bad2241a9625b7ee8067fc7b3aedade864daafc"
+  "date": "2026-10-26",
+  "hash": "bfbdec938c7234308c9e9da2bbfce892b7e20c64"
  },
  "jobs.html": {
-  "date": "2026-10-25",
-  "hash": "b326d3ab368be1f9b9ffd9ba1866a7aa9eccd72e"
+  "date": "2026-10-26",
+  "hash": "935be31fee6b368a0c308ebe1d5c497710f65ffe"
  },
  "services.html": {
-  "date": "2026-10-25",
-  "hash": "65ee53a844eb9f43bbaeba415fb061b08a15bc8d"
+  "date": "2026-10-26",
+  "hash": "d6b97d1e7be702b187f73b5f1d9762cdac1335f2"
  }
 }

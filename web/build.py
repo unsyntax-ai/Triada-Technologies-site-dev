@@ -22,7 +22,19 @@ LINKEDIN = "https://www.linkedin.com/company/triada-technologies/"
 
 
 SITE = "https://triadatechnologies.com"
-OG_IMAGE = SITE + "/assets/og-image.jpg"
+OG_IMAGE = SITE + "/assets/og-image.jpg"            # the home picture, also the default
+OG_BY_PAGE = {"services.html": "og-services.jpg", "about.html": "og-about.jpg", "jobs.html": "og-jobs.jpg", "job.html": "og-jobs.jpg",
+              "contact.html": "og-contact.jpg", "insights.html": "og-insights.jpg", "insights-archive.html": "og-insights.jpg"}
+LOGO_SQUARE = SITE + "/assets/favicon-512.png"        # Google shows the logo in a square, so it gets the square mark
+
+
+def og_image(page_name):
+    """The picture shown when this page is shared: its own one, the Insights one for every article, else the home one."""
+    if page_name in OG_BY_PAGE:
+        return SITE + "/assets/" + OG_BY_PAGE[page_name]
+    if page_name.startswith("insight-"):
+        return SITE + "/assets/og-insights.jpg"
+    return OG_IMAGE
 OG_ALT = "Triada Technologies, nationwide staffing based in Erie, PA"
 
 
@@ -30,6 +42,7 @@ def head(title, desc, page, schema="", og_type="website", noindex=False):
     url = SITE + "/" + ("" if page == "index.html" else page)
     e = html.escape
     robots = "noindex, follow" if noindex else "index, follow, max-image-preview:large"
+    og = og_image(page)
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -46,14 +59,14 @@ def head(title, desc, page, schema="", og_type="website", noindex=False):
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{OG_IMAGE}">
+<meta property="og:image" content="{og}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{OG_ALT}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(desc)}">
-<meta name="twitter:image" content="{OG_IMAGE}">
+<meta name="twitter:image" content="{og}">
 <link rel="icon" href="favicon.ico?v=2" sizes="48x48">
 <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=2">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=2">
@@ -87,7 +100,7 @@ ORG_ID = SITE + "/#organization"
 
 def org(with_phone=False):
     o = {"@type": ["Organization", "EmploymentAgency"], "@id": ORG_ID, "name": "Triada Technologies",
-         "url": SITE + "/", "logo": SITE + "/assets/logo.svg", "image": OG_IMAGE,
+         "url": SITE + "/", "logo": {"@type": "ImageObject", "url": LOGO_SQUARE, "width": 512, "height": 512}, "image": OG_IMAGE,
          "description": "Nationwide staffing and recruitment partner headquartered in Erie, PA, providing temporary, contract, contract-to-hire, direct-hire, and executive search services across the United States.",
          "email": EMAIL, "sameAs": [LINKEDIN],
          "address": {"@type": "PostalAddress", "addressLocality": "Erie", "addressRegion": "PA", "addressCountry": "US"},
