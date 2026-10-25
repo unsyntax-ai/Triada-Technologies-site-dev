@@ -263,7 +263,7 @@ steps_html = "\n".join(
 # ---------- HOME ----------
 HOME_SCHEMA = ld({"@context": "https://schema.org", "@graph": [
     org(),
-    {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Triada Technologies", "alternateName": "Triada",
+    {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Triada Technologies",
      "inLanguage": "en-US", "publisher": {"@id": ORG_ID}},
 ]})
 
