@@ -1169,10 +1169,16 @@ contact = f'''<section class="page-hero" style="border-top:0">
         <textarea id="message" name="message" maxlength="2000" required aria-required="true" aria-describedby="message-error"></textarea>
         <span class="field-error" id="message-error" hidden></span>
       </label>
+      <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
       <div><button class="btn btn-solid" type="submit">Send message</button></div>
-      <p class="form-note">This is a preview. The form is not connected yet, so nothing is sent.</p>
+      <p class="form-note">We use your details only to reply to your message.</p>
       <p id="form-status" role="status" aria-live="polite"></p>
     </form>
+    <div id="form-done" class="form-done" hidden tabindex="-1" role="status">
+      <svg viewBox="0 0 80 80" width="64" height="64" aria-hidden="true" fill="none" stroke="#34C759" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="34"/><path d="M26 41l10 10 19-21"/></svg>
+      <h3>Thank you, <span id="done-name"></span>.</h3>
+      <p>We have your message and will reply within one business day.</p>
+    </div>
   </div>
 </section>
 '''
@@ -1204,7 +1210,7 @@ pages = [
 if __name__ == "__main__":
     outputs = {}
     for fname, title, desc, body, script, schema in pages:
-        extra = ("jobs-config.js", "jobs.js", "find.js") if fname == "jobs.html" else ()
+        extra = ("jobs-config.js", "jobs.js", "find.js") if fname == "jobs.html" else (("jobs-config.js",) if fname == "contact.html" else ())
         outputs[fname] = page(title, desc, fname, body, script=script, schema=page_schema(fname), extra=extra)
     outputs["job.html"] = page("Open role | Triada Technologies Jobs",
                                "A current job opening with Triada Technologies, a nationwide U.S. staffing firm.", "job.html",

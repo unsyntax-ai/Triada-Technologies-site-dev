@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 300" role="img" aria-label="A bar chart with a trend line"><defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#C9ECE6"/></pattern></defs><rect width="485" height="300" fill="#E6F6F3"/><rect width="485" height="300" fill="url(#dots)"/><rect x="101.5" y="228" width="282" height="4" rx="2" fill="#C9ECE6"/>
+<rect x="117.5" y="110.4" width="36" height="117.6" rx="8" fill="#14B8A6"/>
+<rect x="171" y="144" width="36" height="84" rx="8" fill="#FFFFFF"/>
+<rect x="224.5" y="169.2" width="36" height="58.8" rx="8" fill="#FFFFFF"/>
+<rect x="278" y="177.6" width="36" height="50.4" rx="8" fill="#FFFFFF"/>
+<rect x="331.5" y="118.8" width="36" height="109.2" rx="8" fill="#1E3A8A"/>
+<polyline points="135.5,90.4 189,124 242.5,149.2 296,157.6 349.5,98.8" fill="none" stroke="#1E3A8A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="135.5" cy="90.4" r="8" fill="#FF6A00"/>
+<circle cx="189" cy="124" r="5" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3"/>
+<circle cx="242.5" cy="149.2" r="5" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3"/>
+<circle cx="296" cy="157.6" r="5" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3"/>
+<circle cx="349.5" cy="98.8" r="5" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3"/></svg>

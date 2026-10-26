@@ -1,0 +1,76 @@
+{
+  "slug": "annual-job-postings-growth-turns-positive-how-to-build-key-skills",
+  "title": "Annual Job Postings Growth Turns Positive: How to Build Key Skills",
+  "description": "U.S. job postings show positive annual growth for the first time in years. Learn which tech skills employers need and how workers can build them.",
+  "tag": "Skills in demand",
+  "summary": "With annual U.S. job posting growth turning positive for the first time in nearly four years, employers and job seekers must focus on high-demand technical capabilities and flexible hiring strategies.",
+  "palette": "navy",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "has_art": true,
+  "topic": "digital technology skills and software code",
+  "art": {
+    "motif": "bars",
+    "params": {
+      "values": [
+        70,
+        50,
+        35,
+        30,
+        65
+      ]
+    }
+  },
+  "sections": [
+    {
+      "heading": "A Positive Shift in Annual U.S. Job Postings",
+      "paragraphs": [
+        "For the first time in almost four years, overall annual growth in advertised employment opportunities across the United States has turned positive. Data gathered in September 2026 shows that the job postings index reached 103.5, representing a 0.7% gain compared to the prior year and a 1.5% jump over the previous month. Hiring breadth is expanding as well, with roughly 60% of occupational sectors now displaying posting levels above their pre-pandemic baselines, up from 51% recorded in early June.",
+        "While total posting volume sits approximately 3% above baseline figures, short-term additions remain slightly muted. Postings open seven days or fewer registered at 94.0, which is about 6% below pre-pandemic marks. At the same time, the national labor supply has shrunk by roughly 700,000 workers during 2026. The national unemployment rate remained at 4.1% in July, down from 4.5% late last year, while the monthly hires rate fell to 3.2%. With Federal Reserve interest rate increases putting pressure on economic activity, organizations must rethink how they secure essential technical talent."
+      ]
+    },
+    {
+      "heading": "In-Demand Skills and Pay Dynamics in Technical Roles",
+      "paragraphs": [
+        "Demand across the labor market varies significantly depending on technical specialization. Engineering roles and personal care services continue to show resilient demand, while software and technology openings are gradually recovering from prior lows. Advertised pay growth has favored higher-wage positions, where annual pay gains accelerated from 2.0% in January to 2.6% by August. In contrast, middle- and low-wage pay growth has remained flat, leaving overall posted wage growth at 2.5% annually.",
+        "Employers are actively competing for candidates who possess specialized technical skills, including machine learning, data science, artificial intelligence, and generative AI tools such as ChatGPT and large language structures. Long-term federal projections reinforce this demand for technical expertise. Software developers, who earn a median annual wage of $135,980, and quality assurance analysts earning $104,300, are projected to experience 10% employment growth through 2035, generating about 106,100 annual openings. Web developers earning $92,650 and digital interface designers earning $104,000 are expected to expand by 5% over the same ten-year period, adding roughly 13,600 openings annually across computer systems design, software publishing, and manufacturing."
+      ]
+    },
+    {
+      "heading": "Strategic Workforce Planning Across Multiple Hiring Channels",
+      "paragraphs": [
+        "Given that the overall supply of active candidates has contracted, organizations across the U.S. must rethink their talent sourcing models. Businesses cannot rely solely on traditional full-time recruitment when labor force growth slows. Effective workforce planning now requires a balanced mix of direct-hire talent acquisition, temporary staffing, contract engagements, and contract-to-hire strategies.",
+        "Contract positions and temporary assignments allow enterprises to integrate specialized expertise in generative AI or web user interface testing without incurring immediate permanent overhead amidst monetary policy tightening. Contract-to-hire arrangements offer a practical evaluation window for both hiring managers and job seekers to verify technical alignment before making a full-time commitment. Meanwhile, direct-hire searches remain crucial for recruiting senior software developers and system architects who drive core organizational goals."
+      ]
+    },
+    {
+      "heading": "Actionable Guidance for Employers and Candidates",
+      "paragraphs": [
+        "To succeed in a shifting labor market, both workers and hiring leaders need to focus on targeted skill building and adaptable workforce strategies.",
+        "For job seekers, prioritizing emerging capabilities in machine learning, data science, artificial intelligence, and software defect identification creates a clear competitive advantage. Individuals with a bachelor's degree in computer technology can enhance their career opportunities by acquiring targeted credentials in generative language models or user experience design across both contract and direct-hire positions.",
+        "For employers, updating rigid job requirements and providing internal training are critical for bridging skill gaps. Utilizing flexible contract-to-hire and temporary staffing models helps maintain project momentum while navigating broader labor supply constraints and interest rate adjustments."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Annual U.S. job posting growth has turned positive at 0.7%, signaling stabilizing labor demand despite workforce supply constraints.",
+    "High-wage technical fields like artificial intelligence, machine learning, and software engineering are driving advertised wage gains.",
+    "Employers should leverage contract, contract-to-hire, and direct-hire channels to access key skills in a tight labor market."
+  ],
+  "sources": [
+    {
+      "title": "US Labor Market Snapshot — September 2026 - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/2026/09/24/us-labor-market-snapshot-september-2026/"
+    },
+    {
+      "title": "Software Developers, Quality Assurance Analysts, and Testers : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+    },
+    {
+      "title": "Web Developers and Digital Designers : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm"
+    }
+  ],
+  "angle": "which skills employers are asking for and how to build them",
+  "primary_source": "https://hiringlab.indeed.com/2026/09/24/us-labor-market-snapshot-september-2026/"
+}

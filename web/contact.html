@@ -107,10 +107,16 @@
         <textarea id="message" name="message" maxlength="2000" required aria-required="true" aria-describedby="message-error"></textarea>
         <span class="field-error" id="message-error" hidden></span>
       </label>
+      <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
       <div><button class="btn btn-solid" type="submit">Send message</button></div>
-      <p class="form-note">This is a preview. The form is not connected yet, so nothing is sent.</p>
+      <p class="form-note">We use your details only to reply to your message.</p>
       <p id="form-status" role="status" aria-live="polite"></p>
     </form>
+    <div id="form-done" class="form-done" hidden tabindex="-1" role="status">
+      <svg viewBox="0 0 80 80" width="64" height="64" aria-hidden="true" fill="none" stroke="#34C759" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="34"/><path d="M26 41l10 10 19-21"/></svg>
+      <h3>Thank you, <span id="done-name"></span>.</h3>
+      <p>We have your message and will reply within one business day.</p>
+    </div>
   </div>
 </section>
 
@@ -137,5 +143,6 @@
 </footer>
 
 <script src="assets/site.js"></script>
+<script src="assets/jobs-config.js"></script>
 </body>
 </html>

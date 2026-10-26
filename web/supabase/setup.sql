@@ -47,3 +47,21 @@ alter table public.admin_pin enable row level security;
 -- extension (Database > Extensions) and run:
 --   select cron.schedule('purge-archived-jobs', '15 3 * * *',
 --     $$delete from public.jobs where status = 'closed' and updated_at < now() - interval '365 days'$$);
+
+-- Contact form messages (written only by the "contact" Edge Function with the service key; no public access).
+create table if not exists public.contact_messages (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  name text not null,
+  company text,
+  email text not null,
+  phone text,
+  reason text,
+  message text not null,
+  ip_hash text,              -- visitor's address, salted and hashed (for the rate limit), never stored as is
+  user_agent text,
+  emailed boolean not null default false,
+  email_error text           -- why the email did not go out, if it did not
+);
+create index if not exists contact_messages_ip_time on public.contact_messages (ip_hash, created_at);
+alter table public.contact_messages enable row level security;   -- no policies: the public cannot read or write it
