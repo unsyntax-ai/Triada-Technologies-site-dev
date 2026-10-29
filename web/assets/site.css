@@ -117,8 +117,13 @@ p { margin: 0; max-width: 64ch; }
 header.site { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; padding-top: var(--s-2); }
 .bar { min-height: 60px; display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; padding: 6px var(--s-1) 6px var(--s-3); border-radius: var(--r-pill); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-soft); transition: background-color .3s ease, border-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease; }
 header.site.scrolled .bar { background: color-mix(in srgb, var(--bg) 66%, transparent); backdrop-filter: blur(16px) saturate(1.3); -webkit-backdrop-filter: blur(16px) saturate(1.3); border-color: transparent; box-shadow: none; }
-.brand { display: inline-flex; align-items: center; }
+.brand { display: inline-flex; align-items: center; position: relative; }
 .brand img { height: 34px; width: auto; }
+/* the logo is dark; pointing at it (or focusing it with the keyboard) fades in the coloured one: navy letters, teal "Technologies", orange bars */
+.brand .logo-base { transition: opacity .25s ease; }
+.brand .logo-hover { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; transition: opacity .25s ease; pointer-events: none; }
+@media (hover: hover) { .brand:hover .logo-hover, .brand:focus-visible .logo-hover { opacity: 1; } .brand:hover .logo-base, .brand:focus-visible .logo-base { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .brand .logo-base, .brand .logo-hover { transition: none; } }
 nav ul { list-style: none; display: flex; gap: var(--s-3); margin: 0; padding: 0; flex-wrap: wrap; }
 nav a { position: relative; color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px; padding: 0 2px; }
 nav a::after { content: ""; position: absolute; left: 2px; right: 2px; bottom: 8px; height: 2px; background: var(--orange); border-radius: 2px; transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }
@@ -786,11 +791,3 @@ section { padding-block: var(--sec); }
 #a-app:not([hidden]) { animation: a-app-in .3s ease both; }
 @keyframes a-app-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { #a-app:not([hidden]) { animation: none; } }
-
-/* ---------- Contact form: bot trap and thank-you message ---------- */
-.hp { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-.form-done { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: var(--s-1); padding: clamp(40px, 8vw, 89px) var(--s-3); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-panel); box-shadow: var(--shadow-lift); }
-.form-done[hidden] { display: none; }
-.form-done h3 { margin: var(--s-1) 0 0; }
-.form-done p { color: var(--muted); max-width: 40ch; }
-form.contact-form[hidden] { display: none; }

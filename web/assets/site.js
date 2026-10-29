@@ -2,6 +2,13 @@
   var root = document.documentElement;
   root.classList.add('js');
 
+  // The home page is shown as https://triadatechnologies.com/ , not .../index.html (an old link or bookmark gets tidied)
+  try {
+    if (/\/index\.html$/.test(location.pathname) && window.history && history.replaceState) {
+      history.replaceState(null, '', location.pathname.replace(/index\.html$/, '') + location.search + location.hash);
+    }
+  } catch (e) { /* the address stays as it was */ }
+
   // Top bar: frosted and transparent once the page is scrolled
   var header = document.querySelector('header.site');
   function onScroll() {
@@ -260,8 +267,6 @@
         status.textContent = ''; status.className = '';
       });
     });
-    var shownAt = Date.now();   // sent along so the server can tell a person from a bot that submits instantly
-    var failure = function (text) { status.className = 'is-error'; status.textContent = text; };
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var bad = Object.keys(rules).filter(function (field) { return !check(field); });
@@ -271,35 +276,8 @@
         form.elements[bad[0]].focus();
         return;
       }
-      var cfg = window.TRIADA, btn = form.querySelector('button[type="submit"]');
-      var direct = ' Please try again, or email ' + ((cfg && cfg.apply) || 'hr@triadatechnologies.com') + '.';
-      if (!cfg || btn.disabled) { if (!cfg) failure('We could not send your message.' + direct); return; }
-      btn.disabled = true; status.className = ''; status.textContent = 'Sending...';
-      var v = function (n) { return form.elements[n].value.trim(); };
-      fetch(cfg.url + '/functions/v1/contact', {
-        method: 'POST',
-        headers: { apikey: cfg.key, 'Content-Type': 'application/json', 'x-region': 'us-east-1' },
-        body: JSON.stringify({ name: v('name'), company: v('company'), email: v('email'), phone: v('phone'), reason: v('reason'),
-                               message: v('message'), website: form.elements.website.value, t: Date.now() - shownAt })
-      }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { r: r, j: j }; }); })
-        .then(function (x) {
-          if (x.r.ok && x.j.ok) {
-            var done = document.getElementById('form-done');
-            document.getElementById('done-name').textContent = v('name').split(/\s+/)[0];
-            form.hidden = true; done.hidden = false; done.focus();
-            return;
-          }
-          btn.disabled = false;
-          if (x.r.status === 400 && x.j.fields) {
-            Object.keys(x.j.fields).forEach(function (f) { if (rules[f]) show(f, x.j.fields[f]); });
-            failure('Please fix the entry marked below.');
-          } else if (x.r.status === 429) {
-            failure('You have sent several messages already. Please try again later, or email ' + cfg.apply + '.');
-          } else {
-            failure('We could not send your message.' + direct);
-          }
-        })
-        .catch(function () { btn.disabled = false; failure('We could not reach our server.' + direct); });
+      status.className = 'is-ok';
+      status.textContent = 'Preview only. The form is not connected yet, so nothing was sent.';
     });
   }
 })();

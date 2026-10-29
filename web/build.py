@@ -25,6 +25,7 @@ SITE = "https://triadatechnologies.com"
 OG_IMAGE = SITE + "/assets/og-image.jpg"            # the home picture, also the default
 OG_BY_PAGE = {"services.html": "og-services.jpg", "about.html": "og-about.jpg", "jobs.html": "og-jobs.jpg", "job.html": "og-jobs.jpg",
               "contact.html": "og-contact.jpg", "insights.html": "og-insights.jpg", "insights-archive.html": "og-insights.jpg"}
+HOME_LINK = "./"   # a link to the folder, not to index.html, so the address bar shows https://triadatechnologies.com/
 LOGO_SQUARE = SITE + "/assets/favicon-512.png"        # Google shows the logo in a square, so it gets the square mark
 
 
@@ -117,12 +118,12 @@ def header(active):
         active = "insights.html"
     links = "\n".join(
         '        <li><a href="{}"{}>{}</a></li>'.format(
-            href, ' aria-current="page"' if href == active else "", label)
+            HOME_LINK if href == "index.html" else href, ' aria-current="page"' if href == active else "", label)
         for href, label in NAV
     )
     return f'''<header class="site">
   <div class="wrap bar">
-    <a class="brand" href="index.html" aria-label="Triada Technologies home"><img src="assets/logo.svg" width="116" height="34" alt="Triada Technologies"></a>
+    <a class="brand" href="{HOME_LINK}" aria-label="Triada Technologies home"><img class="logo-base" src="assets/logo.svg" width="116" height="34" alt="Triada Technologies"><img class="logo-hover" src="assets/logo-color.svg" width="116" height="34" alt="" aria-hidden="true"></a>
     <nav aria-label="Main">
       <ul>
 {links}
@@ -1169,16 +1170,10 @@ contact = f'''<section class="page-hero" style="border-top:0">
         <textarea id="message" name="message" maxlength="2000" required aria-required="true" aria-describedby="message-error"></textarea>
         <span class="field-error" id="message-error" hidden></span>
       </label>
-      <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
       <div><button class="btn btn-solid" type="submit">Send message</button></div>
-      <p class="form-note">We use your details only to reply to your message.</p>
+      <p class="form-note">This is a preview. The form is not connected yet, so nothing is sent.</p>
       <p id="form-status" role="status" aria-live="polite"></p>
     </form>
-    <div id="form-done" class="form-done" hidden tabindex="-1" role="status">
-      <svg viewBox="0 0 80 80" width="64" height="64" aria-hidden="true" fill="none" stroke="#34C759" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="34"/><path d="M26 41l10 10 19-21"/></svg>
-      <h3>Thank you, <span id="done-name"></span>.</h3>
-      <p>We have your message and will reply within one business day.</p>
-    </div>
   </div>
 </section>
 '''
@@ -1187,22 +1182,22 @@ pages = [
     ("index.html", "Triada Technologies | Staffing Services Across the USA",
      "Triada Technologies is a nationwide staffing firm based in Erie, PA, placing temporary, contract, contract-to-hire, and direct-hire talent across the USA.",
      home, True, HOME_SCHEMA),
-    ("services.html", "Staffing Services | Triada Technologies",
+    ("services.html", "Services | Triada Technologies",
      "Temporary, contract, contract-to-hire, direct hire, and executive search staffing across nine industries, nationwide, from Triada Technologies.",
      services, True, ""),
-    ("about.html", "About Triada Technologies | Nationwide Staffing, Erie, PA",
+    ("about.html", "About | Triada Technologies",
      "About Triada Technologies, a multi-industry staffing partner based in Erie, PA, connecting clients, vendors, and candidates across the USA.",
      about, True, ""),
-    ("jobs.html", "Open Jobs | Triada Technologies",
-     "Current job openings with Triada Technologies clients across the USA, and how to submit your resume for temporary, contract, or direct-hire roles.",
+    ("jobs.html", "Jobs | Triada Technologies",
+     "Browse current openings with Triada Technologies clients across the USA and upload your resume to see your best matches.",
      jobs, True, ""),
-    ("insights.html", "Insights on Hiring | Triada Technologies",
+    ("insights.html", "Insights | Triada Technologies",
      "Sourced articles on U.S. technology hiring, in-demand skills, and workforce planning from Triada Technologies, a nationwide staffing firm.",
      insights, True, ""),
     ("insights-archive.html", "Insights Archive | Triada Technologies",
      "Searchable list of earlier Triada Technologies articles on technology hiring, in-demand skills, and workforce planning, kept for 12 months.",
      archive_page, True, ""),
-    ("contact.html", "Contact Triada Technologies | Nationwide Staffing",
+    ("contact.html", "Contact | Triada Technologies",
      f"Contact Triada Technologies, based in Erie, PA and serving the USA. Call {PHONE} or email {EMAIL} to hire talent or submit your resume.",
      contact, True, ""),
 ]
@@ -1210,7 +1205,7 @@ pages = [
 if __name__ == "__main__":
     outputs = {}
     for fname, title, desc, body, script, schema in pages:
-        extra = ("jobs-config.js", "jobs.js", "find.js") if fname == "jobs.html" else (("jobs-config.js",) if fname == "contact.html" else ())
+        extra = ("jobs-config.js", "jobs.js", "find.js") if fname == "jobs.html" else ()
         outputs[fname] = page(title, desc, fname, body, script=script, schema=page_schema(fname), extra=extra)
     outputs["job.html"] = page("Open role | Triada Technologies Jobs",
                                "A current job opening with Triada Technologies, a nationwide U.S. staffing firm.", "job.html",
@@ -1223,7 +1218,7 @@ if __name__ == "__main__":
                               build_post(p), script=True, schema=post_schema(p), og_type="article")
     outputs["404.html"] = page("Page not found | Triada Technologies", "The page you are looking for does not exist.", "404.html",
                                hero_card("404", "Page not found.", "The page you are looking for has moved or does not exist.")
-                               + '\n<section class="listing"><div class="wrap"><a class="btn btn-white" href="index.html">Go to home</a></div></section>',
+                               + '\n<section class="listing"><div class="wrap"><a class="btn btn-white" href="./">Go to home</a></div></section>',
                                script=True, noindex=True)
     for name, text in {**outputs, **private}.items():
         with open(name, "w", encoding="utf-8") as f:

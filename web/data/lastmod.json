@@ -1,70 +1,82 @@
 {
  "about.html": {
-  "date": "2026-10-26",
-  "hash": "561a57b522ff0ddfbbe3666a5197695136221279"
+  "date": "2026-10-30",
+  "hash": "9016d08fd3fb2e4ca2b03f4f6c42f5dbe651b228"
  },
  "contact.html": {
-  "date": "2026-10-26",
-  "hash": "48b0dffc4304419b954ddafa0dc8f478d519e289"
+  "date": "2026-10-30",
+  "hash": "f8ce860bfa58274fac53ba49d8b956906cb5ea5b"
  },
  "index.html": {
-  "date": "2026-10-26",
-  "hash": "dd0652118e979676f4c0005caf2c83c3dc551ee9"
+  "date": "2026-10-30",
+  "hash": "fe1b1f89c18af61bb5abfac52dbf5f36dda7a1be"
  },
  "insight-ai-integration-and-emerging-specializations-in-tech-hiring.html": {
-  "date": "2026-10-26",
-  "hash": "c52b7d20615ead75a4557edf0c90d10736a8d934"
+  "date": "2026-10-30",
+  "hash": "e146d579d72b27ea0573578fce450dfe4ace3aec"
  },
  "insight-annual-job-postings-growth-turns-positive-how-to-build-key-skills.html": {
-  "date": "2026-10-26",
-  "hash": "ce9f25f5768d06262b801583d1b065e7033bda8b"
+  "date": "2026-10-30",
+  "hash": "ec1bc3234dbfcb1688696d3066a5534f80063def"
+ },
+ "insight-artificial-intelligence-standardization-in-the-2026-developer-survey.html": {
+  "date": "2026-10-30",
+  "hash": "1862497d0eaea12936f1efbd505800b9917cb596"
+ },
+ "insight-computer-support-jobs-drop-3-as-annual-openings-reach-48-700.html": {
+  "date": "2026-10-30",
+  "hash": "bfb84df9fc9c61fd7a6e3824f187e1795d650c5e"
+ },
+ "insight-computer-systems-analysts-face-8-growth-and-new-skill-demands.html": {
+  "date": "2026-10-30",
+  "hash": "cdc41b34b6c71ea0a3bca0d80827c6a52e94ec00"
  },
  "insight-navigating-pay-and-ai-shifts-in-modern-staffing.html": {
-  "date": "2026-10-26",
-  "hash": "2c501408808c165dca93c56b9c3606cb4c508da2"
+  "date": "2026-10-30",
+  "hash": "2b0c0ab2f7f7c899093c393107a0bfecd184cac4"
  },
  "insight-navigating-tech-skills-and-hiring-shifts-in-the-u-s-market.html": {
-  "date": "2026-10-26",
-  "hash": "abae650f908f9650dbed3b35826451a50c3ec7b5"
+  "date": "2026-10-30",
+  "hash": "d95eb6c0cb32f3c19becd0616ff356905416edb3"
  },
  "insight-navigating-the-changing-technology-labor-market.html": {
-  "date": "2026-10-26",
-  "hash": "7028166e96776f4c9d43a6041140fe10d78f5143"
+  "date": "2026-10-30",
+  "hash": "74fc260d04b2b68131006d235ced1a231b4471c4"
  },
  "insight-navigating-u-s-tech-hiring-trends-and-specialized-roles.html": {
-  "date": "2026-10-26",
-  "hash": "593e6c8d913f099da676c89b3a5f8d0691cf1ee0"
+  "date": "2026-10-30",
+  "hash": "13b45c77a3db536a2605efdac2f286ea2d55af95"
  },
  "insight-planning-tech-and-engineering-hiring-in-a-low-mobility-market.html": {
-  "date": "2026-10-26",
-  "hash": "498074f800f1bcaae435f87e3fec056497c97f43"
+  "date": "2026-10-30",
+  "hash": "1ca931e70839d893e3f9f34570847446aaf8e633"
  },
  "insight-shifts-in-technical-talent-demand-and-compensation-across-the-u-s.html": {
-  "date": "2026-10-26",
-  "hash": "b9e3adb58c14f40b85d2eb6d59dccced17a9b0f2"
+  "date": "2026-10-30",
+  "hash": "8562403c6dc6d050c5a2dea17aabdc4c072733a3"
  },
  "insight-tech-hiring-trends-skills-pay-and-depth-across-the-u-s.html": {
-  "date": "2026-10-26",
-  "hash": "7a1e9ac86a4820935bd750df7fd02a6a50c76c21"
+  "date": "2026-10-30",
+  "hash": "e4bbe9384078420590dc090a0b00c74599e86368"
  },
  "insight-why-platform-teams-should-avoid-building-ai-context-layers.html": {
   "date": "2026-10-25",
   "hash": "8d4bfe37520ef3af59f3730510cd8e7cfa76a6e6"
  },
  "insights-archive.html": {
-  "date": "2026-10-26",
-  "hash": "ec87de11282f408ccfa5d5d250fe562239522948"
+  "date": "2026-10-30",
+  "hash": "a7e11a16494346570469294277b703f202eb6675"
  },
  "insights.html": {
-  "date": "2026-10-26",
-  "hash": "b64d6501b1372bea462167d5a6c1a41e1e82217c"
+  "date": "2026-10-30",
+  "hash": "adfa3612bb7db83f68d979bbe70996d00736d492"
  },
  "jobs.html": {
-  "date": "2026-10-26",
-  "hash": "935be31fee6b368a0c308ebe1d5c497710f65ffe"
+  "date": "2026-10-30",
+  "hash": "188c223c236605b77e31ac36748de923291cbe40"
  },
  "services.html": {
-  "date": "2026-10-26",
-  "hash": "d6b97d1e7be702b187f73b5f1d9762cdac1335f2"
+  "date": "2026-10-30",
+  "hash": "610b94ce42ca3847d6bdd2b9aabb2072b24055cc"
  }
 }
