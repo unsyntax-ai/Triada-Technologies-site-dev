@@ -891,3 +891,29 @@ footer.site-foot .foot-col h2 { margin: 6px 0 20px; font: 600 12px var(--sans); 
 footer.site-foot .foot-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
 footer.site-foot .foot-col li { margin: 0; line-height: 1.4; }
 @media (max-width: 800px) { footer.site-foot .foot { grid-template-columns: 1fr; gap: var(--s-4); } footer.site-foot .foot-col h2 { margin-top: 0; } }
+
+/* ---------- Home hero on phones: same design as desktop, stacked ----------
+   A navy block with the label, tagline and introduction, then the photo edge to edge underneath; the same plain dissolve. */
+@media (max-width: 800px) {
+  .hero-full.hero-split {
+    margin-inline: calc(-1 * max(var(--s-3), env(safe-area-inset-left, 0px))); gap: 0; padding: 0;
+    background: var(--night); color: #FFFFFF;
+  }
+  .hero-split .hero-center { --hero-fs: clamp(36px, 11vw, 52px); padding: clamp(36px, 9vw, 52px) max(var(--s-3), env(safe-area-inset-left, 0px)) clamp(32px, 8vw, 44px); }
+  .hero-split .hero-logo { display: none; }
+  .hero-split .eyebrow { order: -1; margin: 0 0 var(--s-2); font-size: 11px; letter-spacing: .14em; color: #CFF7F1; white-space: normal; }
+  .hero-split h1 { color: #FFFFFF; line-height: 1.08; }
+  .hero-split .swap { animation-name: swap-dark; }
+  .hero-split .hero-lead { margin-top: var(--s-3); color: var(--night-muted); font-size: 17px; line-height: 1.6; max-width: none; }
+  .hero-photo { aspect-ratio: 4 / 3; border-radius: 0; box-shadow: none; }
+  html.intro-on main .hero-split .hero-center, html.intro-on main .hero-split .hero-photo { opacity: 0; transform: none; transition: opacity 1.1s ease; }
+  html.intro-on.intro-reveal main .hero-split .hero-center, html.intro-on.intro-reveal main .hero-split .hero-photo { opacity: 1; transform: none; transition-delay: .1s; }
+  html.intro-on main .hero-split .hero-center > * { opacity: 1; transform: none; transition: none; }
+  .cta-band { padding-block: clamp(56px, 14vw, 80px); }
+  .cta-band .hero-actions { flex-wrap: nowrap; gap: var(--s-1); }
+  .cta-band .hero-actions .btn { flex: 1 1 0; min-width: 0; padding: 0 var(--s-2); white-space: nowrap; }
+}
+
+/* Contact form: character count under the message box */
+.char-count { display: block; margin-top: 6px; text-align: right; font-size: 13px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.char-count.near { color: var(--orange); }

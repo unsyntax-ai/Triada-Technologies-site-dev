@@ -297,6 +297,14 @@
         status.textContent = ''; status.className = '';
       });
     });
+    // live character count under the message box (used / total)
+    var msg = form.elements.message, counter = document.getElementById('message-count');
+    if (msg && counter) {
+      var max = msg.maxLength > 0 ? msg.maxLength : 2000;
+      var count = function () { counter.textContent = msg.value.length + ' / ' + max; counter.classList.toggle('near', msg.value.length >= max * 0.9); };
+      msg.addEventListener('input', count); form.addEventListener('reset', function () { setTimeout(count, 0); });
+      count();
+    }
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var bad = Object.keys(rules).filter(function (field) { return !check(field); });
