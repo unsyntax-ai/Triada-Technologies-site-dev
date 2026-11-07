@@ -768,7 +768,7 @@ section { padding-block: var(--sec); }
 /* ---------- Insights heading without a card ---------- */
 .plain-head { margin-bottom: var(--s-4); max-width: 940px; }
 .plain-head .lead { max-width: 60ch; }
-.plain-head h1 { white-space: normal; font-size: clamp(34px, 4.6vw, 58px); line-height: 1.1; }
+.plain-head h1 { line-height: 1.1; }
 
 /* ---------- Admin PIN: instant, smooth feedback ---------- */
 .otp input { transition: border-color .25s ease, background-color .25s ease, box-shadow .25s ease, opacity .25s ease; }
@@ -923,3 +923,7 @@ footer.site-foot .foot-col li { margin: 0; line-height: 1.4; }
 .msg-foot .field-error { flex: 1 1 auto; margin: 0; line-height: 1.4; }
 .msg-foot .char-count { flex: 0 0 auto; margin: 0 0 0 auto; line-height: 1.4; text-align: right; }
 #message::placeholder { color: var(--muted); opacity: .55; }
+
+/* Main page headings (Services, About, Jobs, Insights, Contact): large but not oversized, and on one line on desktop */
+h1.pt { font-size: clamp(34px, 4.2vw, 52px); line-height: 1.1; }
+@media (min-width: 801px) { h1.pt { white-space: nowrap; } }
