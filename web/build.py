@@ -147,7 +147,6 @@ FOOTER = f'''<footer class="site-foot">
     <div>
       <p>Headquartered in Erie, PA</p>
       <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
-      <p><a href="contact.html">Contact page</a></p>
       <p><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies on LinkedIn</a></p>
     </div>
     <div>
