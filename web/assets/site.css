@@ -852,3 +852,20 @@ html.intro-on.intro-reveal .hero-split .hero-lead { opacity: 1; transform: none;
   border-color: var(--orange);
   box-shadow: 0 0 0 1px var(--orange), 0 0 10px 1px rgba(255, 106, 0, .45);
 }
+
+/* ---------- Type hierarchy for the split hero (A) and the photo band (B) ----------
+   Same ladder in both, each step clearly smaller than the one above:
+   headline (A larger than B) > body 19px > label 12px capitals. Logo is dropped from A on desktop (the top bar already carries it). */
+@media (min-width: 801px) {
+  .hero-split .hero-logo { display: none; }
+  .hero-split .hero-center { --hero-fs: clamp(40px, 4.8vw, 64px); }
+  .hero-split .eyebrow { order: -1; margin: 0 0 var(--s-3); font-size: 12px; letter-spacing: .16em; color: #CFF7F1; }
+  .hero-split h1 { line-height: 1.08; }
+  .hero-split .hero-lead { margin-top: var(--s-4); font-size: 19px; line-height: 1.65; max-width: 29em; }
+}
+.cta-band .eyebrow { font-size: 12px; letter-spacing: .16em; }
+.cta-band strong { font-size: clamp(28px, 3.3vw, 42px); line-height: 1.15; }
+.cta-band-inner > strong { max-width: 780px; }
+.cta-band p:not(.eyebrow) { font-size: 19px; line-height: 1.65; max-width: 640px; }
+.cta-band-inner { gap: var(--s-3); }
+.cta-band .hero-actions { margin-top: var(--s-3); }
