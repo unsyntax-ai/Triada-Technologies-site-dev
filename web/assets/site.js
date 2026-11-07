@@ -137,6 +137,26 @@
       hero.style.setProperty('--p', p.toFixed(3));
       ticking = false;
     };
+    // the full-width photo band: it widens to the screen edges as it arrives, the photo drifts slower than the page,
+    // and its text rises in once, one line after another
+    var band = document.querySelector('.cta-band');
+    var bandStep = function () {
+      if (!band) return;
+      var r = band.getBoundingClientRect(), vh = window.innerHeight || 1;
+      var e = Math.min(1, Math.max(0, (vh - r.top) / (vh * 0.65)));
+      var b = Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height)));
+      band.style.setProperty('--e', e.toFixed(3));
+      band.style.setProperty('--b', b.toFixed(3));
+    };
+    if (band) {
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (en, o) {
+          if (en[0].isIntersecting) { band.classList.add('in'); o.disconnect(); }
+        }, { threshold: 0.3 }).observe(band);
+      } else { band.classList.add('in'); }
+    }
+    var step0 = step;
+    step = function () { step0(); bandStep(); };
     window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(step); } }, { passive: true });
     window.addEventListener('resize', step);
     step();
