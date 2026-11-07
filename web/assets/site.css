@@ -917,3 +917,9 @@ footer.site-foot .foot-col li { margin: 0; line-height: 1.4; }
 /* Contact form: character count under the message box */
 .char-count { display: block; margin-top: 6px; text-align: right; font-size: 13px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
 .char-count.near { color: var(--orange); }
+
+/* Contact message: the line under the box always keeps its height, so showing or hiding the red warning never moves the Send button */
+.msg-foot { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-2); min-height: 44px; margin-top: 6px; }
+.msg-foot .field-error { flex: 1 1 auto; margin: 0; line-height: 1.4; }
+.msg-foot .char-count { flex: 0 0 auto; margin: 0; line-height: 1.4; }
+#message::placeholder { color: var(--muted); opacity: .55; }

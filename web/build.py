@@ -1171,9 +1171,8 @@ contact = f'''<section class="page-hero" style="border-top:0">
         </select>
       </label>
       <label for="message">Message
-        <textarea id="message" name="message" maxlength="1000" required aria-required="true" aria-describedby="message-error"></textarea>
-        <span class="char-count" id="message-count">0 / 1000</span>
-        <span class="field-error" id="message-error" hidden></span>
+        <textarea id="message" name="message" maxlength="999" required aria-required="true" aria-describedby="message-error" placeholder="Please write at least 60 characters so we know how to help."></textarea>
+        <span class="msg-foot"><span class="field-error" id="message-error" hidden></span><span class="char-count" id="message-count">0 / 999</span></span>
       </label>
       <div><button class="btn btn-solid" type="submit">Send message</button></div>
       <p class="form-note">This is a preview. The form is not connected yet, so nothing is sent.</p>
