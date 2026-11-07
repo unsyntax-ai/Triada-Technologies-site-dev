@@ -402,7 +402,6 @@ faq_html = "\n".join(
 
 services = f'''<section class="page-hero" style="border-top:0">
   <div class="wrap">
-    <p class="eyebrow">Services</p>
     <h1>Staffing for <em>every stage</em> of hiring.</h1>
     <p class="lead">Temporary, contract, contract-to-hire, direct placement, and executive search, with vetted talent across nine industries, for employers nationwide. We shape each engagement around your schedule, your budget, and the level of responsibility the role carries.</p>
   </div>
@@ -467,7 +466,6 @@ services = f'''<section class="page-hero" style="border-top:0">
 # ---------- ABOUT ----------
 about = f'''<section class="page-hero" style="border-top:0">
   <div class="wrap">
-    <p class="eyebrow">About</p>
     <h1>Connecting clients, <em>vendors, and candidates.</em></h1>
     <p class="lead">Triada Technologies is a multi-industry staffing and workforce solutions partner headquartered in Erie, Pennsylvania, serving employers and professionals across the United States. We build smart, long-term relationships that help organizations grow and help professionals move their careers forward.</p>
   </div>
@@ -537,7 +535,6 @@ jobs = '''<section class="page-hero" style="border-top:0">
   <div class="wrap">
     <div class="page-hero-row">
       <div>
-        <p class="eyebrow">Jobs</p>
         <h1>Open <em>roles.</em></h1>
         <p class="lead">Your next opportunity could be here. Upload your resume and discover your matches, without searching listing by listing. Prefer to browse? Current openings with our clients are listed below, each with a clear description of the responsibilities, skills, and location. If nothing fits yet, send us your resume and we will contact you when a suitable role opens.</p>
       </div>
@@ -912,7 +909,7 @@ def hero_card(eyebrow, title_html, lead):
     return f'''<section class="page-hero hero-carded" style="border-top:0">
   <div class="wrap">
     <div class="hero-card">
-      <p class="eyebrow">{eyebrow}</p>
+      {f'<p class="eyebrow">{eyebrow}</p>' if eyebrow else ''}
       <h1>{title_html}</h1>
       <p class="lead">{lead}</p>
     </div>
@@ -924,7 +921,7 @@ def hero_card(eyebrow, title_html, lead):
 def build_insights(posts, today):
     live = [p for p in posts if (today - dt.date.fromisoformat(p["published"])).days <= LIVE_DAYS]
     old = [p for p in posts if p not in live]
-    hero = hero_card("Insights", "Notes on <em>hiring</em> and the job market.",
+    hero = hero_card("", "U.S. hiring trends and <em>job market insights</em>, updated daily.",
                      "Short, sourced articles on U.S. technology hiring, in-demand skills, and workforce planning, for clients planning their teams and candidates planning their next role.")
     if not live and not old:
         return hero + '''
@@ -947,8 +944,7 @@ def build_insights(posts, today):
 <section class="listing listing-first" data-page="9">
   <div class="wrap">
     <div class="plain-head">
-      <p class="eyebrow">Insights</p>
-      <h1>Notes on <em>hiring</em>.</h1>
+      <h1>U.S. hiring trends and <em>job market insights</em>, updated daily.</h1>
       <p class="lead">Short, sourced articles on U.S. technology hiring, in-demand skills, and workforce planning, for clients planning their teams and candidates planning their next role.</p>
     </div>
 {toolbar(live, True)}
@@ -1131,7 +1127,6 @@ archive_page = build_archive(POSTS, TODAY)
 contact = f'''<section class="page-hero" style="border-top:0">
   <div class="wrap contact-grid">
     <div class="details">
-      <p class="eyebrow">Contact</p>
       <h1>Get in <em>touch.</em></h1>
       <p class="lead">Tell us what you are hiring for or what you are looking for, and a member of our team will respond.</p>
       <span class="logo-bars" aria-hidden="true"></span>

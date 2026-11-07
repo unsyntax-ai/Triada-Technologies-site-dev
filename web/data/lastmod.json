@@ -1,11 +1,11 @@
 {
  "about.html": {
   "date": "2026-11-07",
-  "hash": "9da578742e622ea5c0dc78e794fba4b8261b8161"
+  "hash": "c951ffb7060a1fccd1ad3649685a2e3f07e7fc6b"
  },
  "contact.html": {
   "date": "2026-11-07",
-  "hash": "cf58c7534af34993291494459ab546b467a1c16f"
+  "hash": "60ad9801d9446ad16ce51970b9c63897e0e6356b"
  },
  "index.html": {
   "date": "2026-11-07",
@@ -101,14 +101,14 @@
  },
  "insights.html": {
   "date": "2026-11-07",
-  "hash": "bf550b899286e0129dff27cb98f93eab44e43f70"
+  "hash": "9c60d9a9366143a51ddc85e860896efede1654bc"
  },
  "jobs.html": {
   "date": "2026-11-07",
-  "hash": "c05cf94666d189068e2dd550fd4cf96ae56385f7"
+  "hash": "92f8f0099b2d228a8fda2b3e26042a998aba3c52"
  },
  "services.html": {
   "date": "2026-11-07",
-  "hash": "822747ddf0a633372e3a387c720a696b09d9ff07"
+  "hash": "399ebd607c74827f3568242d1d0a4ba680001b94"
  }
 }
