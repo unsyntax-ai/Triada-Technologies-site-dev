@@ -283,17 +283,12 @@ home = f'''<div class="opening" id="opening" aria-hidden="true"><div class="open
   <div class="hero-center">
     <img class="hero-logo" src="assets/hero-logo.png" alt="Triada Technologies" width="1400" height="367">
     <h1>Creating value<br> for <span class="swap">everyone</span>.</h1>
+    <p class="hero-lead">We connect clients, vendors, and candidates across the United States through temporary, contract, contract-to-hire, and direct-hire staffing. We keep the process clear, the screening careful, and every placement built to last.</p>
     <p class="eyebrow">Nationwide staffing, based in Erie, PA</p>
   </div>
   <figure class="hero-photo">
     <img class="hero-img" src="assets/hero-city.jpg" alt="A smiling professional celebrating at her laptop" width="2200" height="1261" fetchpriority="high" decoding="async">
   </figure>
-</section>
-
-<section id="intro" class="intro">
-  <div class="wrap">
-    <p class="lead">Creating value for every side of the hiring journey. Triada Technologies connects clients, vendors, and candidates across the United States through temporary, contract, contract-to-hire, and direct-hire staffing. We keep the process clear, the screening careful, and every placement built to last.</p>
-  </div>
 </section>
 
 <section class="cta-band" aria-label="Why hiring speed matters">
