@@ -1,63 +1,95 @@
 {
  "about.html": {
   "date": "2026-10-30",
-  "hash": "9016d08fd3fb2e4ca2b03f4f6c42f5dbe651b228"
+  "hash": "ab73e5681ada0d9fcd74969000b3bd6d625cd45c"
  },
  "contact.html": {
   "date": "2026-10-30",
-  "hash": "f8ce860bfa58274fac53ba49d8b956906cb5ea5b"
+  "hash": "a84b99449370101fe9d4c3a2b727e033be28b44d"
  },
  "index.html": {
-  "date": "2026-10-30",
-  "hash": "fe1b1f89c18af61bb5abfac52dbf5f36dda7a1be"
+  "date": "2026-11-07",
+  "hash": "8dafcfdc490ed22e9742452437f9e256e4947bda"
  },
  "insight-ai-integration-and-emerging-specializations-in-tech-hiring.html": {
   "date": "2026-10-30",
-  "hash": "e146d579d72b27ea0573578fce450dfe4ace3aec"
+  "hash": "601aafb43a4522efa5722a7ffec1536b227e3290"
  },
  "insight-annual-job-postings-growth-turns-positive-how-to-build-key-skills.html": {
   "date": "2026-10-30",
-  "hash": "ec1bc3234dbfcb1688696d3066a5534f80063def"
+  "hash": "cbdf6383d95e299ed6b23c57762aade103ea32a4"
  },
  "insight-artificial-intelligence-standardization-in-the-2026-developer-survey.html": {
   "date": "2026-10-30",
-  "hash": "1862497d0eaea12936f1efbd505800b9917cb596"
+  "hash": "fbaa7eb6ace078825e7052cf07ae1745a60034e7"
  },
  "insight-computer-support-jobs-drop-3-as-annual-openings-reach-48-700.html": {
   "date": "2026-10-30",
-  "hash": "bfb84df9fc9c61fd7a6e3824f187e1795d650c5e"
+  "hash": "734a63a50acd00538b1d2601120aee4bbd7c0daa"
  },
  "insight-computer-systems-analysts-face-8-growth-and-new-skill-demands.html": {
   "date": "2026-10-30",
-  "hash": "cdc41b34b6c71ea0a3bca0d80827c6a52e94ec00"
+  "hash": "c5967c4198655b2228acab2e7081c519a503665b"
+ },
+ "insight-contract-strategies-as-computer-programmer-roles-decline-7-percent.html": {
+  "date": "2026-10-30",
+  "hash": "c7178ea8a4fd98b68884edbc18029cc1c65bb794"
+ },
+ "insight-database-architect-and-administrator-hiring-at-126-760-median-pay.html": {
+  "date": "2026-11-03",
+  "hash": "51ad3f000062911acdfeb5390dc8ce39e73339fd"
+ },
+ "insight-efficiency-trends-how-productivity-gains-reshape-seasonal-staffing.html": {
+  "date": "2026-11-05",
+  "hash": "9c2cd520ff1b3c32beb406a33cb7a5770043e3c4"
+ },
+ "insight-managing-staffing-for-109-470-tech-median-pay-and-role-growth.html": {
+  "date": "2026-11-02",
+  "hash": "4ba7643f44acbee284be37ecf2b0f5484e16fef3"
  },
  "insight-navigating-pay-and-ai-shifts-in-modern-staffing.html": {
   "date": "2026-10-30",
-  "hash": "2b0c0ab2f7f7c899093c393107a0bfecd184cac4"
+  "hash": "30e483ac62b41f498f29cf9e7d8fb4aab772f054"
  },
  "insight-navigating-tech-skills-and-hiring-shifts-in-the-u-s-market.html": {
   "date": "2026-10-30",
-  "hash": "d95eb6c0cb32f3c19becd0616ff356905416edb3"
+  "hash": "f50ea2f54188655c0dd3b9c3e82e8c44102ffb4d"
  },
  "insight-navigating-the-changing-technology-labor-market.html": {
   "date": "2026-10-30",
-  "hash": "74fc260d04b2b68131006d235ced1a231b4471c4"
+  "hash": "7b88aaa2e30297db822c45a5a76e06b4c0f56e30"
  },
  "insight-navigating-u-s-tech-hiring-trends-and-specialized-roles.html": {
   "date": "2026-10-30",
-  "hash": "13b45c77a3db536a2605efdac2f286ea2d55af95"
+  "hash": "072b7a41523f77f2b716d8a02c68770acff94dc3"
+ },
+ "insight-network-architect-pay-hits-134-050-amid-8-percent-role-growth.html": {
+  "date": "2026-11-01",
+  "hash": "757a17c0658e399956e94154e4ac35046a7a8e39"
+ },
+ "insight-october-2026-job-data-reveals-key-career-and-hiring-shifts.html": {
+  "date": "2026-11-06",
+  "hash": "2df804e86774090d2c581f82b81c6b974892b5ab"
  },
  "insight-planning-tech-and-engineering-hiring-in-a-low-mobility-market.html": {
   "date": "2026-10-30",
-  "hash": "1ca931e70839d893e3f9f34570847446aaf8e633"
+  "hash": "8987eb1e5c4425d74261f061a7647abc1e1abe16"
+ },
+ "insight-rising-health-expenses-reshape-u-s-hiring-and-job-search-strategies.html": {
+  "date": "2026-10-31",
+  "hash": "d422f11ee88a4461623ddc3220527864cd36eb5c"
+ },
+ "insight-september-2026-jolts-quiet-hiring-meets-ai-infrastructure-spending.html": {
+  "date": "2026-11-04",
+  "hash": "d64e5108b98bd6a1c452fad2d547a9ff7a948eb1"
  },
  "insight-shifts-in-technical-talent-demand-and-compensation-across-the-u-s.html": {
   "date": "2026-10-30",
-  "hash": "8562403c6dc6d050c5a2dea17aabdc4c072733a3"
+  "hash": "d8c3ae60d609cbeaa8ca8aeea9128775b9990bbf"
  },
  "insight-tech-hiring-trends-skills-pay-and-depth-across-the-u-s.html": {
   "date": "2026-10-30",
-  "hash": "e4bbe9384078420590dc090a0b00c74599e86368"
+  "hash": "f9593acca69719076ab9ed1f74fe2725dd5e8ddb"
  },
  "insight-why-platform-teams-should-avoid-building-ai-context-layers.html": {
   "date": "2026-10-25",
@@ -65,18 +97,18 @@
  },
  "insights-archive.html": {
   "date": "2026-10-30",
-  "hash": "a7e11a16494346570469294277b703f202eb6675"
+  "hash": "06ef1730cae786759e3f5b556b2decbd8c8fb674"
  },
  "insights.html": {
-  "date": "2026-10-30",
-  "hash": "adfa3612bb7db83f68d979bbe70996d00736d492"
+  "date": "2026-11-06",
+  "hash": "9b9c80a50b8b494eb089073b80360c298ec559f8"
  },
  "jobs.html": {
   "date": "2026-10-30",
-  "hash": "188c223c236605b77e31ac36748de923291cbe40"
+  "hash": "a65d52fcf43dc3a22ef260224b53679c2e1d5ef2"
  },
  "services.html": {
   "date": "2026-10-30",
-  "hash": "610b94ce42ca3847d6bdd2b9aabb2072b24055cc"
+  "hash": "23fea7b3968a4552dae39611fec07def4d9ec200"
  }
 }

@@ -1,0 +1,67 @@
+{
+  "slug": "contract-strategies-as-computer-programmer-roles-decline-7-percent",
+  "title": "Contract Strategies as Computer Programmer Roles Decline 7 Percent",
+  "description": "Computer programmer roles face a 7 percent drop through 2035. Discover how contract and contract-to-hire staffing helps U.S. employers navigate the shift.",
+  "tag": "Workforce planning",
+  "summary": "As computer programmer positions contract by 7 percent, employers and candidates are turning to flexible staffing models to sustain core software development.",
+  "palette": "navy",
+  "published": "2026-10-30",
+  "updated": "2026-10-30",
+  "has_art": true,
+  "topic": "software development and contract staffing",
+  "art": {
+    "motif": "bars",
+    "params": {}
+  },
+  "sections": [
+    {
+      "heading": "A Shifting Baseline for Programmer Headcount",
+      "paragraphs": [
+        "Official projections from the federal government paint a distinct picture for computer programmers across the United States. In 2025, the occupation accounted for 110,800 jobs, but employment is projected to decline 7 percent between 2025 and 2035. That contraction represents a net reduction of 8,100 positions over the ten-year period. At the same time, the field is far from disappearing. An estimated 4,400 job openings will still emerge each year on average. Every single one of these vacancies will stem from turnover, as experienced staff retire or transition into adjacent professional tracks.",
+        "Even as total headcount contracts, financial rewards for qualified programmers remain robust. During May 2025, median annual compensation for these specialists hit $100,390, translating to $48.26 an hour. Programmers are responsible for writing, updating, and evaluating scripts and code so software applications run as intended. The primary setting for this work remains the computer systems design and related services field, where full-time schedules predominate."
+      ]
+    },
+    {
+      "heading": "The Macroeconomic Driver for Flexible Staffing",
+      "paragraphs": [
+        "The broader American labor landscape explains why organizations are rethinking how they recruit for these specialized positions. National job openings slipped to 7.1 million during August after reaching a revised 7.3 million the month before. Alongside this moderation, the hiring process has slowed down significantly. Recent labor turnover metrics show the vacancy yield dipped to 0.71, meaning hiring activity is lagging behind open requisitions. With a low layoff rate of 1.0% and a quits rate holding at 1.9%, workforce movement has remained restricted.",
+        "Financial conditions reinforce this cautious corporate stance. The Federal Reserve recently raised its benchmark rate by 25 basis points to a target band of 3.75% to 4%. Because borrowing costs affect corporate capital budgets, executive teams are scrutinizing ongoing fixed payroll commitments. Rather than immediately authorizing permanent, direct-hire programmer requisitions in a shrinking occupation, hiring managers are utilizing contract and contract-to-hire staffing solutions. These structures allow firms to maintain development velocity without locking in long-term legacy headcount."
+      ]
+    },
+    {
+      "heading": "Workforce Planning Strategies for Employers",
+      "paragraphs": [
+        "For technology leaders and engineering managers, navigating this transition requires agility. When software platforms demand code modernization or targeted script writing, bringing in contract programmers offers immediate impact. Contract-to-hire models provide an invaluable evaluation period, letting managers assess how well a programmer handles internal architectures before making a direct hire.",
+        "Because projected openings will arise solely from attrition, enterprise staffing strategies must address institutional knowledge transfer. When senior programmers announce retirement plans, bringing in contingent specialists early ensures critical software logic remains documented and supported. Flexible staffing models also give firms the breathing room to scale resources up or down depending on project deadlines and corporate revenue goals."
+      ]
+    },
+    {
+      "heading": "Career Playbook for Technical Professionals",
+      "paragraphs": [
+        "For job candidates and active programmers, an evolving occupational outlook requires deliberate career positioning. A bachelor's degree remains the standard entry-level educational credential, but sustained career longevity depends on continuous technical expansion. Most computer programmers specialize in several programming languages, and maintaining expertise across multiple frameworks ensures high marketability.",
+        "Pursuing contract and contract-to-hire engagements can serve as an effective springboard in this environment. Given that permanent direct-hire openings are tied strictly to replacement needs, contract assignments grant professionals exposure to modern tech stacks and diverse enterprise environments. These interim roles often convert into long-term positions for individuals who demonstrate an ability to debug complex scripts and collaborate across teams."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Computer programmer employment is projected to decline 7 percent by 2035, yet replacement demand generates 4,400 openings each year.",
+    "Higher borrowing costs and a 0.71 vacancy yield are driving hiring managers toward contract and contract-to-hire arrangements.",
+    "Programmers proficient in multiple languages can use contract roles to access top employers and secure permanent offers."
+  ],
+  "sources": [
+    {
+      "title": "Computer Programmers : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm"
+    },
+    {
+      "title": "August 2026 JOLTS Report: Little Change, Limited Dynamism - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/2026/09/29/august-2026-jolts-report/"
+    },
+    {
+      "title": "September 2026 FOMC Reaction: Walking a Fine Line - Indeed Hiring Lab",
+      "url": "https://hiringlab.indeed.com/2026/09/16/september-2026-fomc-reaction-walking-a-fine-line/"
+    }
+  ],
+  "angle": "what this means for contract and contract-to-hire hiring",
+  "primary_source": "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm"
+}

@@ -68,13 +68,13 @@ def head(title, desc, page, schema="", og_type="website", noindex=False):
 <meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{og}">
-<link rel="icon" href="favicon.ico?v=2" sizes="48x48">
-<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=2">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=2">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png?v=2">
-<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png?v=2">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="icon" href="favicon.ico?v=3" sizes="48x48">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=3">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=3">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=3">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png?v=3">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Google+Sans+Flex:wght@400;500;600&display=swap">
@@ -291,19 +291,21 @@ home = f'''<div class="opening" id="opening" aria-hidden="true"><div class="open
 </section>
 
 <section id="intro" class="intro">
-  <div class="wrap hero-grid">
-    <div>
-      <p class="lead">Creating value for every side of the hiring journey. Triada Technologies connects clients, vendors, and candidates across the United States through temporary, contract, contract-to-hire, and direct-hire staffing. We keep the process clear, the screening careful, and every placement built to last.</p>
-      <div class="hero-actions">
-        <a class="btn btn-white" href="contact.html">Hire talent</a>
-        <a class="btn btn-white" href="jobs.html">Find work</a>
-      </div>
+  <div class="wrap">
+    <p class="lead">Creating value for every side of the hiring journey. Triada Technologies connects clients, vendors, and candidates across the United States through temporary, contract, contract-to-hire, and direct-hire staffing. We keep the process clear, the screening careful, and every placement built to last.</p>
+  </div>
+</section>
+
+<section class="cta-band" aria-label="Why hiring speed matters">
+  <img class="cta-band-img" src="assets/cta-band.jpg" alt="" width="2400" height="1000" loading="lazy" decoding="async" onerror="this.remove()">
+  <div class="cta-band-inner">
+    <p class="eyebrow">The real cost of waiting</p>
+    <strong>Every open seat slows down the work your team was hired to do.</strong>
+    <p>Projects stall, deadlines slip, and the people already carrying the load start to feel the strain. We find candidates who match the role and the team, screen them with care, and bring them in ready to contribute. Once the seat is filled, your team can return to its best work, with the steady confidence that progress is moving again.</p>
+    <div class="hero-actions">
+      <a class="btn btn-white" href="contact.html">Hire talent</a>
+      <a class="btn btn-white" href="jobs.html">Find work</a>
     </div>
-    <aside class="hook" aria-label="Why hiring speed matters">
-      <p class="eyebrow">The real cost of waiting</p>
-      <strong>Every open seat slows down the work your team was hired to do.</strong>
-      <p>Projects stall, deadlines slip, and the people already carrying the load start to feel the strain. We find candidates who match the role and the team, screen them with care, and bring them in ready to contribute. Once the seat is filled, your team can return to its best work, with the steady confidence that progress is moving again.</p>
-    </aside>
   </div>
 </section>
 
