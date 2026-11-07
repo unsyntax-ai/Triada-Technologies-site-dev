@@ -292,7 +292,7 @@ home = f'''<div class="opening" id="opening" aria-hidden="true"><div class="open
 </section>
 
 <section class="cta-band" aria-label="Why hiring speed matters">
-  <img class="cta-band-img" src="assets/cta-band.jpg" alt="" width="2400" height="1000" loading="lazy" decoding="async" onerror="this.remove()">
+  <img class="cta-band-img" src="assets/cta-band.jpg" alt="" width="2000" height="1335" loading="lazy" decoding="async" onerror="this.remove()">
   <div class="cta-band-inner">
     <p class="eyebrow">The real cost of waiting</p>
     <strong>Every open seat slows down the work your team was hired to do.</strong>

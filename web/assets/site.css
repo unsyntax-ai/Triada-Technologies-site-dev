@@ -798,7 +798,7 @@ section { padding-block: var(--sec); }
 .intro .wrap { max-width: 860px; }
 .intro .lead { margin: 0; }
 .cta-band { position: relative; isolation: isolate; margin-inline: calc(-1 * max(var(--s-3), env(safe-area-inset-left, 0px))); background: linear-gradient(135deg, #24469F, var(--night) 70%); color: #FFFFFF; overflow: hidden; padding: clamp(72px, 10vw, 140px) max(var(--s-3), env(safe-area-inset-left, 0px)); }
-.cta-band-img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; z-index: -2; }
+.cta-band-img { object-position: 50% 45%; position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; z-index: -2; }
 .cta-band::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(11, 22, 58, .88), rgba(11, 22, 58, .55)); }
 .cta-band-inner { max-width: 1120px; margin-inline: auto; display: flex; flex-direction: column; align-items: flex-start; gap: var(--s-3); }
 .cta-band-inner > * { max-width: 680px; }
