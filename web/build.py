@@ -282,7 +282,7 @@ home = f'''<div class="opening" id="opening" aria-hidden="true"><div class="open
 <section class="hero-full hero-split" aria-label="Introduction">
   <div class="hero-center">
     <img class="hero-logo" src="assets/hero-logo.png" alt="Triada Technologies" width="1400" height="367">
-    <h1>Creating value<br> for <span class="swap">everyone</span>.</h1>
+    <h1><span class="ln"><span>Creating value</span></span> <span class="ln"><span>for <span class="swap">everyone</span>.</span></span></h1>
     <p class="hero-lead">We connect clients, vendors, and candidates across the United States through temporary, contract, contract-to-hire, and direct-hire staffing. We keep the process clear, the screening careful, and every placement built to last.</p>
     <p class="eyebrow">Nationwide staffing, based in Erie, PA</p>
   </div>
