@@ -104,7 +104,7 @@ p { margin: 0; max-width: 64ch; }
 
 /* buttons: pill shaped, with a gentle lift on hover */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--s-1); min-height: 52px; padding: 0 var(--s-4); border-radius: var(--r-pill); font: 600 16px var(--sans); text-decoration: none; border: 1px solid var(--accent); cursor: pointer; transition: background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease, transform .25s ease; }
-.btn:hover { transform: translateY(-1px); }
+.btn:hover { transform: none; }
 .btn-solid { background: var(--accent); color: var(--accent-ink); box-shadow: 0 8px 20px -10px rgba(30, 58, 138, .55); }
 .btn-solid:hover { background: var(--navy-deep); box-shadow: 0 12px 26px -10px rgba(30, 58, 138, .65); }
 .btn-line { background: var(--surface); color: var(--navy); border-color: var(--line); }
@@ -845,3 +845,10 @@ html.intro-on.intro-reveal .hero-split .hero-lead { opacity: 1; transform: none;
 .home-motion .cta-band.in .cta-band-inner > :nth-child(3) { transition-delay: .2s; }
 .home-motion .cta-band.in .cta-band-inner > :nth-child(4) { transition-delay: .3s; }
 .opening-mid { position: absolute; left: 0; right: 0; background: var(--bg); }
+
+/* Buttons never lift: on hover or keyboard focus they get a thin orange border with a soft orange glow instead */
+.btn:not(:disabled):hover, .btn:not(:disabled):focus-visible {
+  transform: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 1px var(--orange), 0 0 10px 1px rgba(255, 106, 0, .45);
+}
