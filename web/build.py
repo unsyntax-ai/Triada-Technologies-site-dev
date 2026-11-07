@@ -140,20 +140,31 @@ def header(active):
 
 FOOTER = f'''<footer class="site-foot">
   <div class="wrap foot">
-    <div>
+    <div class="foot-brand">
       <img src="assets/logo.svg" width="116" height="34" alt="Triada Technologies">
-      <p style="margin-top:13px">Nationwide staffing and recruitment, headquartered in Erie, PA.</p>
+      <p>Nationwide staffing and recruitment for clients, vendors, and candidates.</p>
     </div>
-    <div>
-      <p>Headquartered in Erie, PA</p>
-      <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
-      <p><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies on LinkedIn</a></p>
+    <div class="foot-col">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-    <div>
-      <p><a href="services.html">Services</a> · <a href="jobs.html">Jobs</a> · <a href="insights.html">Insights</a></p>
-      <p><a href="about.html">About</a> · <a href="contact.html">Contact</a></p>
-      <p class="copy">© 2026 Triada Technologies. All rights reserved.</p>
+    <div class="foot-col">
+      <h2>Get in touch</h2>
+      <ul>
+        <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
+        <li>Erie, PA, serving clients nationwide</li>
+        <li><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies on LinkedIn</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="wrap foot-base">
+    <p class="copy">© 2026 Triada Technologies. All rights reserved.</p>
   </div>
 </footer>
 '''
