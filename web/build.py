@@ -142,7 +142,8 @@ FOOTER = f'''<footer class="site-foot">
   <div class="wrap foot">
     <div class="foot-brand">
       <img src="assets/logo.svg" width="116" height="34" alt="Triada Technologies">
-      <p>Nationwide staffing and recruitment for clients, vendors, and candidates.</p>
+      <p class="foot-tag">Creating value for everyone.</p>
+      <p class="copy">© 2026 Triada Technologies. All rights reserved.</p>
     </div>
     <div class="foot-col">
       <h2>Explore</h2>
@@ -158,13 +159,10 @@ FOOTER = f'''<footer class="site-foot">
       <h2>Get in touch</h2>
       <ul>
         <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
-        <li>Erie, PA, serving clients nationwide</li>
+        <li>Erie, PA {POSTAL_CODE}</li>
         <li><a href="{LINKEDIN}" target="_blank" rel="me noopener">Triada Technologies on LinkedIn</a></li>
       </ul>
     </div>
-  </div>
-  <div class="wrap foot-base">
-    <p class="copy">© 2026 Triada Technologies. All rights reserved.</p>
   </div>
 </footer>
 '''

@@ -879,12 +879,15 @@ html.intro-on.intro-reveal .hero-split .hero-lead { opacity: 1; transform: none;
 .home-motion .cta-band.in .cta-band-inner > * { transition-delay: .15s; }
 .hero-split h1 .ln { display: block; }
 
-/* Footer: brand, then Explore (pages), then Get in touch (how to reach us); copyright on its own line underneath */
+/* Footer: brand (logo, tagline, copyright), then Explore (pages), then Get in touch (how to reach us).
+   Spacing: logo > 16px > tagline > 24px > copyright; each column's heading sits 20px above its list, rows 12px apart. */
+footer.site-foot { padding-block: var(--s-5); }
 footer.site-foot .foot { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1.4fr); gap: var(--s-5); align-items: start; justify-content: stretch; }
-footer.site-foot .foot-brand p { margin: 13px 0 0; max-width: 26em; }
-footer.site-foot .foot-col h2 { margin: 0 0 var(--s-2); font: 600 12px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: #5EEAD4; text-wrap: wrap; }
-footer.site-foot .foot-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-footer.site-foot .foot-col li { margin: 0; line-height: 1.5; }
-footer.site-foot .foot-base { margin-top: var(--s-5); padding-top: var(--s-3); border-top: 1px solid rgba(255, 255, 255, .12); }
-footer.site-foot .foot-base .copy { margin: 0; }
-@media (max-width: 800px) { footer.site-foot .foot { grid-template-columns: 1fr; gap: var(--s-4); } }
+footer.site-foot .foot-brand p { margin: 0; }
+footer.site-foot .foot-brand img { margin-bottom: 16px; }
+footer.site-foot .foot-brand .foot-tag { font-family: var(--serif); font-size: 19px; line-height: 1.3; color: #FFFFFF; }
+footer.site-foot .foot-brand .copy { margin-top: 24px; font-size: 13px; line-height: 1.5; color: #94A0C4; }
+footer.site-foot .foot-col h2 { margin: 6px 0 20px; font: 600 12px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: #5EEAD4; text-wrap: wrap; }
+footer.site-foot .foot-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+footer.site-foot .foot-col li { margin: 0; line-height: 1.4; }
+@media (max-width: 800px) { footer.site-foot .foot { grid-template-columns: 1fr; gap: var(--s-4); } footer.site-foot .foot-col h2 { margin-top: 0; } }
