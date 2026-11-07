@@ -1171,8 +1171,8 @@ contact = f'''<section class="page-hero" style="border-top:0">
         </select>
       </label>
       <label for="message">Message
-        <textarea id="message" name="message" maxlength="2000" required aria-required="true" aria-describedby="message-error"></textarea>
-        <span class="char-count" id="message-count">0 / 2000</span>
+        <textarea id="message" name="message" maxlength="1000" required aria-required="true" aria-describedby="message-error"></textarea>
+        <span class="char-count" id="message-count">0 / 1000</span>
         <span class="field-error" id="message-error" hidden></span>
       </label>
       <div><button class="btn btn-solid" type="submit">Send message</button></div>

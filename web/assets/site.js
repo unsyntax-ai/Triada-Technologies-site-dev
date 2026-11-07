@@ -277,8 +277,8 @@
       },
       message: function (v) {
         if (!v) return 'Write a short message so we know how to help.';
-        if (v.length < 10) return 'Add a little more detail (at least 10 characters).';
-        if (v.length > 2000) return 'Shorten your message to 2000 characters or fewer.';
+        if (v.length < 60) return 'Please add a little more detail (at least 60 characters) so we can help.';
+        if (v.length > 1000) return 'Shorten your message to 1000 characters or fewer.';
         return '';
       }
     };
@@ -300,7 +300,7 @@
     // live character count under the message box (used / total)
     var msg = form.elements.message, counter = document.getElementById('message-count');
     if (msg && counter) {
-      var max = msg.maxLength > 0 ? msg.maxLength : 2000;
+      var max = msg.maxLength > 0 ? msg.maxLength : 1000;
       var count = function () { counter.textContent = msg.value.length + ' / ' + max; counter.classList.toggle('near', msg.value.length >= max * 0.9); };
       msg.addEventListener('input', count); form.addEventListener('reset', function () { setTimeout(count, 0); });
       count();
