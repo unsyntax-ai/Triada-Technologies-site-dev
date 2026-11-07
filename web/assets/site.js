@@ -77,12 +77,14 @@
     barB.style.top = Math.round(H / 2 + gap / 2) + 'px';
     // the two light panels end exactly at the outer edges of the bars (no light margin travelling with them);
     // a thin strip fills the slit between the bars until they part, then fades
-    var edgeA = Math.round(H / 2 - gap / 2 - T) + T, edgeB = Math.round(H / 2 + gap / 2);
-    panelTop.style.height = edgeA + 'px';
-    panelBottom.style.height = (H - edgeB) + 'px';
+    // the pieces overlap by 2px and meet in the middle of each bar's thickness (hidden under the bar once it moves),
+    // so no hairline can show where two light pieces touch
+    var edgeA = Math.round(H / 2 - gap / 2 - T) + T, edgeB = Math.round(H / 2 + gap / 2), half = Math.round(T / 2);
+    panelTop.style.height = (edgeA - half + 2) + 'px';
+    panelBottom.style.height = (H - (edgeB + half - 2)) + 'px';
     var mid = document.createElement('span');
     mid.className = 'opening-mid';
-    mid.style.top = edgeA + 'px'; mid.style.height = (edgeB - edgeA) + 'px';
+    mid.style.top = (edgeA - half) + 'px'; mid.style.height = (edgeB - edgeA + 2 * half) + 'px';
     intro.insertBefore(mid, barA);
     var running = [], ended = false;
     var move = function (el, from, to, opts) {
