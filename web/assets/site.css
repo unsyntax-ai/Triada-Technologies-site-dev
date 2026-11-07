@@ -921,5 +921,5 @@ footer.site-foot .foot-col li { margin: 0; line-height: 1.4; }
 /* Contact message: the line under the box always keeps its height, so showing or hiding the red warning never moves the Send button */
 .msg-foot { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-2); min-height: 44px; margin-top: 6px; }
 .msg-foot .field-error { flex: 1 1 auto; margin: 0; line-height: 1.4; }
-.msg-foot .char-count { flex: 0 0 auto; margin: 0; line-height: 1.4; }
+.msg-foot .char-count { flex: 0 0 auto; margin: 0 0 0 auto; line-height: 1.4; text-align: right; }
 #message::placeholder { color: var(--muted); opacity: .55; }
