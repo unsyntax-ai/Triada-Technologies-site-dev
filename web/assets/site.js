@@ -75,6 +75,15 @@
     var gap = Math.round(T * 0.66);              // the gap between the two bars in the logo
     barA.style.top = Math.round(H / 2 - gap / 2 - T) + 'px';
     barB.style.top = Math.round(H / 2 + gap / 2) + 'px';
+    // the two light panels end exactly at the outer edges of the bars (no light margin travelling with them);
+    // a thin strip fills the slit between the bars until they part, then fades
+    var edgeA = Math.round(H / 2 - gap / 2 - T) + T, edgeB = Math.round(H / 2 + gap / 2);
+    panelTop.style.height = edgeA + 'px';
+    panelBottom.style.height = (H - edgeB) + 'px';
+    var mid = document.createElement('span');
+    mid.className = 'opening-mid';
+    mid.style.top = edgeA + 'px'; mid.style.height = (edgeB - edgeA) + 'px';
+    intro.insertBefore(mid, barA);
     var running = [], ended = false;
     var move = function (el, from, to, opts) {
       var a = el.animate([from, to], Object.assign({ fill: 'both' }, opts));
@@ -109,6 +118,7 @@
       var up = -Math.round(H / 2 - gap / 2 - T);     // the upper bar rises until it touches the top edge
       var down = Math.round(H / 2 + gap / 2 + T) + 6;  // the lower bar leaves through the bottom
       setTimeout(function () { root.classList.add('intro-reveal'); }, 250);
+      move(mid, { opacity: 1 }, { opacity: 0 }, { duration: 120, easing: 'linear' });
       return Promise.all([
         move(barA, xy(0, 0), xy(0, up), { duration: 750, easing: part }),
         move(panelTop, xy(0, 0), xy(0, -Math.round(H / 2) - 6), { duration: 750, easing: part }),
